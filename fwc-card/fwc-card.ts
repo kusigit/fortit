@@ -44,3 +44,9 @@ export class FwcCard extends LitElement {
     `;
   }
 }
+
+declare global {
+  interface HTMLElementTagNameMap {
+    "fwc-card": FwcCard,
+  }
+}
