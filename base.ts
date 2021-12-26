@@ -1,9 +1,9 @@
 import moment from 'moment';
 
-const dynMsg = async (key: string): Promise<string> => {
-  // @ts-ignore
-  const dynMessages = await import('./client/i18n/messages');
+// @ts-ignore
+const dynMessages = import('./client/i18n/messages');
 
+const dynMsg = (key: string): string => {
   const message = dynMessages[key];
   if (!message) {
     // eslint-disable-next-line no-console
