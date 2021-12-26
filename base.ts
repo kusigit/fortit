@@ -1,9 +1,6 @@
 import { msg } from '@lit/localize';
 import moment from 'moment';
 
-export * from './fwc-card';
-export * from './fwc-data-table';
-
 const columns = {
   name: msg(`Name`),
   description: msg(`Beschreibung`),
@@ -19,12 +16,12 @@ const titles = {
   edit: msg(`Bearbeiten`),
 };
 
-export const dynMessages: { [key: string]: string } = {
+const dynMessages: { [key: string]: string } = {
   ...columns,
   ...titles,
 };
 
-export const dynMsg = (key: string) => {
+const dynMsg = (key: string) => {
   const message = dynMessages[key];
   if (!message) {
     // eslint-disable-next-line no-console
@@ -35,5 +32,7 @@ export const dynMsg = (key: string) => {
   return message;
 };
 
-export const formatDate = (timestamp?: number): string =>
+const formatDate = (timestamp?: number): string =>
   timestamp ? moment(timestamp).format('DD.MM.YYYY') : '';
+
+export { dynMsg, formatDate };

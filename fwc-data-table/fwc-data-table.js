@@ -4,7 +4,7 @@ import { html, css, LitElement } from 'lit';
 import { customElement } from 'lit/decorators/custom-element.js';
 import { property } from 'lit/decorators/property.js';
 import { state } from 'lit/decorators/state.js';
-import { formatDate, dynMsg } from '..';
+import { formatDate, dynMsg } from '../base.js';
 let FwcDataTable = class FwcDataTable extends LitElement {
     constructor() {
         super(...arguments);

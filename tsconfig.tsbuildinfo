@@ -206,6 +206,11 @@
         "signature": "f97edc4d3b4dd0b32766e9633086497565c37657fb591cc84a35864db4bc2fc5",
         "affectsGlobalScope": false
       },
+      "./base.ts": {
+        "version": "3243a1e1d8641c7caa080224b738a2d5ba2d2dc123fa13f7744252908137262b",
+        "signature": "4f9e92d8e1c7785d4d9e34184a536f05e4219f9c6cf58070bc35fea4b41f841a",
+        "affectsGlobalScope": false
+      },
       "./node_modules/@lit/reactive-element/decorators/custom-element.d.ts": {
         "version": "ac388c7c7a262213a3700451bc921e382a93fb27c0252c34ccf03540b4ce044b",
         "signature": "ac388c7c7a262213a3700451bc921e382a93fb27c0252c34ccf03540b4ce044b",
@@ -215,6 +220,11 @@
         "version": "42a6711db284605f8208108859b25e1415d332d5f4915aea7cde3e1d7c04d83b",
         "signature": "42a6711db284605f8208108859b25e1415d332d5f4915aea7cde3e1d7c04d83b",
         "affectsGlobalScope": false
+      },
+      "./fwc-card/fwc-card.ts": {
+        "version": "40f0a5e5ddc82204525e5affd72d4c5c6bbb2769fb32a0dccb9d5bcab559ceb7",
+        "signature": "5520c50d632d357b2a0de0eb61dcc4ce75113407a585daf680b42d319dcd33f3",
+        "affectsGlobalScope": true
       },
       "./node_modules/@lit/reactive-element/decorators/property.d.ts": {
         "version": "9bdb35d0b28dcd5d8f0879bd29f0cf07b7eb48aa63be4dd44057e32fcfeb1c83",
@@ -237,7 +247,7 @@
         "affectsGlobalScope": false
       },
       "./fwc-data-table/fwc-data-table.ts": {
-        "version": "c807c0cf56810b80d2931c8c87db02298b95c683c7705231180d9db545168492",
+        "version": "1c52b2baa6c89d3400a18b0fe847c8f91b3a350b810b6bd50555d4c8db932cf6",
         "signature": "3fee3f24e1605c84f1ed48d7a0d729df3c02c0a6eeb19d964f3848acf4de222c",
         "affectsGlobalScope": true
       },
@@ -250,16 +260,6 @@
         "version": "b95b50a0589534a52359df93a6d21ebef246efb82c7ca03c72219ec20cbcd1b6",
         "signature": "616bbe4e50a89f1b7a00a6e90c507ef7ccdab5b763c769104e16fc56c6445425",
         "affectsGlobalScope": false
-      },
-      "./index.ts": {
-        "version": "2acaa296cf198d1f12a344db9c1dd2e093a6e69000fbd410205a92b8cfe381e6",
-        "signature": "c95893b52bbc7832e8621e1e002f3ba0f7f26148c3a993649675e3132d6494d1",
-        "affectsGlobalScope": false
-      },
-      "./fwc-card/fwc-card.ts": {
-        "version": "40f0a5e5ddc82204525e5affd72d4c5c6bbb2769fb32a0dccb9d5bcab559ceb7",
-        "signature": "5520c50d632d357b2a0de0eb61dcc4ce75113407a585daf680b42d319dcd33f3",
-        "affectsGlobalScope": true
       },
       "./node_modules/@types/common-tags/index.d.ts": {
         "version": "c5590caef278ad8ba2532ec93e29a32ac354dfb333277348acce18512891d3b2",
@@ -344,6 +344,11 @@
       "configFilePath": "./tsconfig.json"
     },
     "referencedMap": {
+      "./base.ts": [
+        "./node_modules/@lit/localize/lit-localize.d.ts",
+        "./node_modules/moment/ts3.1-typings/moment.d.ts",
+        "./node_modules/tslib/tslib.d.ts"
+      ],
       "./fwc-card/fwc-card.ts": [
         "./node_modules/lit/decorators/custom-element.d.ts",
         "./node_modules/lit/index.d.ts",
@@ -354,7 +359,7 @@
         "./node_modules/tslib/tslib.d.ts"
       ],
       "./fwc-data-table/fwc-data-table.ts": [
-        "./index.ts",
+        "./base.ts",
         "./node_modules/@lit/localize/lit-localize.d.ts",
         "./node_modules/lit/decorators/custom-element.d.ts",
         "./node_modules/lit/decorators/property.d.ts",
@@ -364,13 +369,6 @@
       ],
       "./fwc-data-table/index.ts": [
         "./fwc-data-table/fwc-data-table.ts",
-        "./node_modules/tslib/tslib.d.ts"
-      ],
-      "./index.ts": [
-        "./fwc-card/index.ts",
-        "./fwc-data-table/index.ts",
-        "./node_modules/@lit/localize/lit-localize.d.ts",
-        "./node_modules/moment/ts3.1-typings/moment.d.ts",
         "./node_modules/tslib/tslib.d.ts"
       ],
       "./node_modules/@lit/localize/init/runtime.d.ts": [
@@ -458,10 +456,6 @@
       "./fwc-data-table/index.ts": [
         "./fwc-data-table/fwc-data-table.ts"
       ],
-      "./index.ts": [
-        "./fwc-card/index.ts",
-        "./fwc-data-table/index.ts"
-      ],
       "./node_modules/@lit/localize/init/runtime.d.ts": [
         "./node_modules/@lit/localize/internal/types.d.ts"
       ],
@@ -535,11 +529,11 @@
       ]
     },
     "semanticDiagnosticsPerFile": [
+      "./base.ts",
       "./fwc-card/fwc-card.ts",
       "./fwc-card/index.ts",
       "./fwc-data-table/fwc-data-table.ts",
       "./fwc-data-table/index.ts",
-      "./index.ts",
       "./node_modules/@lit/localize/init/runtime.d.ts",
       "./node_modules/@lit/localize/init/transform.d.ts",
       "./node_modules/@lit/localize/internal/locale-status-event.d.ts",

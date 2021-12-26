@@ -3,7 +3,7 @@ import { TemplateResult, html, css, LitElement } from 'lit';
 import { customElement } from 'lit/decorators/custom-element.js';
 import { property } from 'lit/decorators/property.js';
 import { state } from 'lit/decorators/state.js';
-import { formatDate, dynMsg } from '..';
+import { formatDate, dynMsg } from '../base.js';
 
 @customElement('fwc-data-table')
 export class FwcDataTable extends LitElement {
