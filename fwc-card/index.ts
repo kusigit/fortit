@@ -1,1 +1,1 @@
-export * from 'fwc-card';
+export * from '../fwc-data-table';

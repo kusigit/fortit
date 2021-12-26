@@ -1,2 +1,2 @@
-export * from 'fwc-card';
+export * from '../fwc-data-table';
 //# sourceMappingURL=index.js.map

@@ -156,9 +156,54 @@
         "signature": "f07a77a7fb1d49aa2b61cb68bf712a083487acd7130d20223a83de03af0c257d",
         "affectsGlobalScope": false
       },
+      "./node_modules/@lit/localize/internal/str-tag.d.ts": {
+        "version": "08bae564269612dc1909bdf7f747766c235b85641f6d156bccc9ee9876fb2435",
+        "signature": "08bae564269612dc1909bdf7f747766c235b85641f6d156bccc9ee9876fb2435",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@lit/localize/internal/types.d.ts": {
+        "version": "459489899ec41b6dc4a6a8f80f55aae744cd76f6b6ad13a0acb19349c9bdf2f5",
+        "signature": "459489899ec41b6dc4a6a8f80f55aae744cd76f6b6ad13a0acb19349c9bdf2f5",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@lit/localize/internal/locale-status-event.d.ts": {
+        "version": "6a7a3cf7102eaf8c5b67c2a92f8cc0ff6e1076a49b714a7f518d0d1b5ac85a40",
+        "signature": "6a7a3cf7102eaf8c5b67c2a92f8cc0ff6e1076a49b714a7f518d0d1b5ac85a40",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@lit/localize/internal/localized-controller.d.ts": {
+        "version": "b49ff59927171643840b1349c9a0b39453e0613e69aa25d588c6c24ccb37fbe1",
+        "signature": "b49ff59927171643840b1349c9a0b39453e0613e69aa25d588c6c24ccb37fbe1",
+        "affectsGlobalScope": false
+      },
       "./node_modules/@lit/reactive-element/decorators/base.d.ts": {
         "version": "97c58f6db61d45712d91d2260994817ae2b568bbb37cc280013079b6b5d2232d",
         "signature": "97c58f6db61d45712d91d2260994817ae2b568bbb37cc280013079b6b5d2232d",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@lit/localize/internal/localized-decorator.d.ts": {
+        "version": "d7476e036a2936d4e5ec603a28c04645b2afa91e3c0ff98e326b884ed5a3fa73",
+        "signature": "d7476e036a2936d4e5ec603a28c04645b2afa91e3c0ff98e326b884ed5a3fa73",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@lit/localize/init/runtime.d.ts": {
+        "version": "775d6ac48d8fe78490aa60d2b356579822702bce7e70c88fc2452334c67504d4",
+        "signature": "775d6ac48d8fe78490aa60d2b356579822702bce7e70c88fc2452334c67504d4",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@lit/localize/init/transform.d.ts": {
+        "version": "9c75751d47aef509ebc0a58cb186c8e07c8ed2cd164a9902164cc5ae28bf0517",
+        "signature": "9c75751d47aef509ebc0a58cb186c8e07c8ed2cd164a9902164cc5ae28bf0517",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@lit/localize/lit-localize.d.ts": {
+        "version": "b48bf76c500cfcff3a39db7c8b649a7800eeacceb2a97e46a22abae3f1dc4de6",
+        "signature": "b48bf76c500cfcff3a39db7c8b649a7800eeacceb2a97e46a22abae3f1dc4de6",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/moment/ts3.1-typings/moment.d.ts": {
+        "version": "f97edc4d3b4dd0b32766e9633086497565c37657fb591cc84a35864db4bc2fc5",
+        "signature": "f97edc4d3b4dd0b32766e9633086497565c37657fb591cc84a35864db4bc2fc5",
         "affectsGlobalScope": false
       },
       "./node_modules/@lit/reactive-element/decorators/custom-element.d.ts": {
@@ -171,15 +216,50 @@
         "signature": "42a6711db284605f8208108859b25e1415d332d5f4915aea7cde3e1d7c04d83b",
         "affectsGlobalScope": false
       },
+      "./node_modules/@lit/reactive-element/decorators/property.d.ts": {
+        "version": "9bdb35d0b28dcd5d8f0879bd29f0cf07b7eb48aa63be4dd44057e32fcfeb1c83",
+        "signature": "9bdb35d0b28dcd5d8f0879bd29f0cf07b7eb48aa63be4dd44057e32fcfeb1c83",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/lit/decorators/property.d.ts": {
+        "version": "d3890804856d6e2c7fdb024fb5eb1f59c4663545327894dba8f7429723fc5f71",
+        "signature": "d3890804856d6e2c7fdb024fb5eb1f59c4663545327894dba8f7429723fc5f71",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@lit/reactive-element/decorators/state.d.ts": {
+        "version": "fb0107c83e2e0e75b77dacd0c3c6c3ab6844e98dce2a8f858c6f0a57c12136a6",
+        "signature": "fb0107c83e2e0e75b77dacd0c3c6c3ab6844e98dce2a8f858c6f0a57c12136a6",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/lit/decorators/state.d.ts": {
+        "version": "76d543256b0e5bf935967f6069c907fd5d1bb7847846bf0dd7708363bc331ee4",
+        "signature": "76d543256b0e5bf935967f6069c907fd5d1bb7847846bf0dd7708363bc331ee4",
+        "affectsGlobalScope": false
+      },
+      "./fwc-data-table/fwc-data-table.ts": {
+        "version": "c807c0cf56810b80d2931c8c87db02298b95c683c7705231180d9db545168492",
+        "signature": "3fee3f24e1605c84f1ed48d7a0d729df3c02c0a6eeb19d964f3848acf4de222c",
+        "affectsGlobalScope": true
+      },
+      "./fwc-data-table/index.ts": {
+        "version": "b15ebf5557452ce70cdd4ee0f9725f871a8995a1da1de7f35aec63c4bacbb65f",
+        "signature": "b15ebf5557452ce70cdd4ee0f9725f871a8995a1da1de7f35aec63c4bacbb65f",
+        "affectsGlobalScope": false
+      },
+      "./fwc-card/index.ts": {
+        "version": "b95b50a0589534a52359df93a6d21ebef246efb82c7ca03c72219ec20cbcd1b6",
+        "signature": "616bbe4e50a89f1b7a00a6e90c507ef7ccdab5b763c769104e16fc56c6445425",
+        "affectsGlobalScope": false
+      },
+      "./index.ts": {
+        "version": "2acaa296cf198d1f12a344db9c1dd2e093a6e69000fbd410205a92b8cfe381e6",
+        "signature": "c95893b52bbc7832e8621e1e002f3ba0f7f26148c3a993649675e3132d6494d1",
+        "affectsGlobalScope": false
+      },
       "./fwc-card/fwc-card.ts": {
         "version": "40f0a5e5ddc82204525e5affd72d4c5c6bbb2769fb32a0dccb9d5bcab559ceb7",
         "signature": "5520c50d632d357b2a0de0eb61dcc4ce75113407a585daf680b42d319dcd33f3",
         "affectsGlobalScope": true
-      },
-      "./fwc-card/index.ts": {
-        "version": "ecda44c23dfad6e168c9a8cb0313194e96f40bd40412e0d93f01c6ebf3d39a03",
-        "signature": "e77a9102bb2ac9d5c7acd0a3b27c36c8bfc0c9cf002107ae6877bebfbb8b960c",
-        "affectsGlobalScope": false
       },
       "./node_modules/@types/common-tags/index.d.ts": {
         "version": "c5590caef278ad8ba2532ec93e29a32ac354dfb333277348acce18512891d3b2",
@@ -219,6 +299,7 @@
       "noImplicitReturns": true,
       "noFallthroughCasesInSwitch": true,
       "experimentalDecorators": true,
+      "allowSyntheticDefaultImports": true,
       "skipLibCheck": true,
       "strict": true,
       "noImplicitAny": false,
@@ -269,13 +350,66 @@
         "./node_modules/tslib/tslib.d.ts"
       ],
       "./fwc-card/index.ts": [
-        "./fwc-card/index.ts",
+        "./fwc-data-table/index.ts",
         "./node_modules/tslib/tslib.d.ts"
+      ],
+      "./fwc-data-table/fwc-data-table.ts": [
+        "./index.ts",
+        "./node_modules/@lit/localize/lit-localize.d.ts",
+        "./node_modules/lit/decorators/custom-element.d.ts",
+        "./node_modules/lit/decorators/property.d.ts",
+        "./node_modules/lit/decorators/state.d.ts",
+        "./node_modules/lit/index.d.ts",
+        "./node_modules/tslib/tslib.d.ts"
+      ],
+      "./fwc-data-table/index.ts": [
+        "./fwc-data-table/fwc-data-table.ts",
+        "./node_modules/tslib/tslib.d.ts"
+      ],
+      "./index.ts": [
+        "./fwc-card/index.ts",
+        "./fwc-data-table/index.ts",
+        "./node_modules/@lit/localize/lit-localize.d.ts",
+        "./node_modules/moment/ts3.1-typings/moment.d.ts",
+        "./node_modules/tslib/tslib.d.ts"
+      ],
+      "./node_modules/@lit/localize/init/runtime.d.ts": [
+        "./node_modules/@lit/localize/internal/types.d.ts"
+      ],
+      "./node_modules/@lit/localize/internal/localized-controller.d.ts": [
+        "./node_modules/lit/index.d.ts"
+      ],
+      "./node_modules/@lit/localize/internal/localized-decorator.d.ts": [
+        "./node_modules/@lit/reactive-element/decorators/base.d.ts",
+        "./node_modules/@lit/reactive-element/reactive-element.d.ts"
+      ],
+      "./node_modules/@lit/localize/internal/str-tag.d.ts": [
+        "./node_modules/@lit/localize/internal/types.d.ts"
+      ],
+      "./node_modules/@lit/localize/internal/types.d.ts": [
+        "./node_modules/@lit/localize/internal/str-tag.d.ts",
+        "./node_modules/lit/index.d.ts"
+      ],
+      "./node_modules/@lit/localize/lit-localize.d.ts": [
+        "./node_modules/@lit/localize/init/runtime.d.ts",
+        "./node_modules/@lit/localize/init/transform.d.ts",
+        "./node_modules/@lit/localize/internal/locale-status-event.d.ts",
+        "./node_modules/@lit/localize/internal/localized-controller.d.ts",
+        "./node_modules/@lit/localize/internal/localized-decorator.d.ts",
+        "./node_modules/@lit/localize/internal/str-tag.d.ts",
+        "./node_modules/@lit/localize/internal/types.d.ts"
       ],
       "./node_modules/@lit/reactive-element/decorators/base.d.ts": [
         "./node_modules/@lit/reactive-element/reactive-element.d.ts"
       ],
       "./node_modules/@lit/reactive-element/decorators/custom-element.d.ts": [
+        "./node_modules/@lit/reactive-element/decorators/base.d.ts"
+      ],
+      "./node_modules/@lit/reactive-element/decorators/property.d.ts": [
+        "./node_modules/@lit/reactive-element/decorators/base.d.ts",
+        "./node_modules/@lit/reactive-element/reactive-element.d.ts"
+      ],
+      "./node_modules/@lit/reactive-element/decorators/state.d.ts": [
         "./node_modules/@lit/reactive-element/decorators/base.d.ts"
       ],
       "./node_modules/@lit/reactive-element/reactive-element.d.ts": [
@@ -298,6 +432,12 @@
       ],
       "./node_modules/lit/decorators/custom-element.d.ts": [
         "./node_modules/@lit/reactive-element/decorators/custom-element.d.ts"
+      ],
+      "./node_modules/lit/decorators/property.d.ts": [
+        "./node_modules/@lit/reactive-element/decorators/property.d.ts"
+      ],
+      "./node_modules/lit/decorators/state.d.ts": [
+        "./node_modules/@lit/reactive-element/decorators/state.d.ts"
       ],
       "./node_modules/lit/index.d.ts": [
         "./node_modules/@lit/reactive-element/reactive-element.d.ts",
@@ -309,10 +449,56 @@
       "./fwc-card/fwc-card.ts": [
         "./node_modules/lit/index.d.ts"
       ],
+      "./fwc-card/index.ts": [
+        "./fwc-data-table/index.ts"
+      ],
+      "./fwc-data-table/fwc-data-table.ts": [
+        "./node_modules/lit/index.d.ts"
+      ],
+      "./fwc-data-table/index.ts": [
+        "./fwc-data-table/fwc-data-table.ts"
+      ],
+      "./index.ts": [
+        "./fwc-card/index.ts",
+        "./fwc-data-table/index.ts"
+      ],
+      "./node_modules/@lit/localize/init/runtime.d.ts": [
+        "./node_modules/@lit/localize/internal/types.d.ts"
+      ],
+      "./node_modules/@lit/localize/internal/localized-controller.d.ts": [
+        "./node_modules/lit/index.d.ts"
+      ],
+      "./node_modules/@lit/localize/internal/localized-decorator.d.ts": [
+        "./node_modules/@lit/reactive-element/decorators/base.d.ts",
+        "./node_modules/@lit/reactive-element/reactive-element.d.ts"
+      ],
+      "./node_modules/@lit/localize/internal/str-tag.d.ts": [
+        "./node_modules/@lit/localize/internal/types.d.ts"
+      ],
+      "./node_modules/@lit/localize/internal/types.d.ts": [
+        "./node_modules/@lit/localize/internal/str-tag.d.ts",
+        "./node_modules/lit/index.d.ts"
+      ],
+      "./node_modules/@lit/localize/lit-localize.d.ts": [
+        "./node_modules/@lit/localize/init/runtime.d.ts",
+        "./node_modules/@lit/localize/init/transform.d.ts",
+        "./node_modules/@lit/localize/internal/locale-status-event.d.ts",
+        "./node_modules/@lit/localize/internal/localized-controller.d.ts",
+        "./node_modules/@lit/localize/internal/localized-decorator.d.ts",
+        "./node_modules/@lit/localize/internal/str-tag.d.ts",
+        "./node_modules/@lit/localize/internal/types.d.ts"
+      ],
       "./node_modules/@lit/reactive-element/decorators/base.d.ts": [
         "./node_modules/@lit/reactive-element/reactive-element.d.ts"
       ],
       "./node_modules/@lit/reactive-element/decorators/custom-element.d.ts": [
+        "./node_modules/@lit/reactive-element/decorators/base.d.ts"
+      ],
+      "./node_modules/@lit/reactive-element/decorators/property.d.ts": [
+        "./node_modules/@lit/reactive-element/decorators/base.d.ts",
+        "./node_modules/@lit/reactive-element/reactive-element.d.ts"
+      ],
+      "./node_modules/@lit/reactive-element/decorators/state.d.ts": [
         "./node_modules/@lit/reactive-element/decorators/base.d.ts"
       ],
       "./node_modules/@lit/reactive-element/reactive-element.d.ts": [
@@ -336,6 +522,12 @@
       "./node_modules/lit/decorators/custom-element.d.ts": [
         "./node_modules/@lit/reactive-element/decorators/custom-element.d.ts"
       ],
+      "./node_modules/lit/decorators/property.d.ts": [
+        "./node_modules/@lit/reactive-element/decorators/property.d.ts"
+      ],
+      "./node_modules/lit/decorators/state.d.ts": [
+        "./node_modules/@lit/reactive-element/decorators/state.d.ts"
+      ],
       "./node_modules/lit/index.d.ts": [
         "./node_modules/@lit/reactive-element/reactive-element.d.ts",
         "./node_modules/lit-element/lit-element.d.ts",
@@ -345,9 +537,22 @@
     "semanticDiagnosticsPerFile": [
       "./fwc-card/fwc-card.ts",
       "./fwc-card/index.ts",
+      "./fwc-data-table/fwc-data-table.ts",
+      "./fwc-data-table/index.ts",
+      "./index.ts",
+      "./node_modules/@lit/localize/init/runtime.d.ts",
+      "./node_modules/@lit/localize/init/transform.d.ts",
+      "./node_modules/@lit/localize/internal/locale-status-event.d.ts",
+      "./node_modules/@lit/localize/internal/localized-controller.d.ts",
+      "./node_modules/@lit/localize/internal/localized-decorator.d.ts",
+      "./node_modules/@lit/localize/internal/str-tag.d.ts",
+      "./node_modules/@lit/localize/internal/types.d.ts",
+      "./node_modules/@lit/localize/lit-localize.d.ts",
       "./node_modules/@lit/reactive-element/css-tag.d.ts",
       "./node_modules/@lit/reactive-element/decorators/base.d.ts",
       "./node_modules/@lit/reactive-element/decorators/custom-element.d.ts",
+      "./node_modules/@lit/reactive-element/decorators/property.d.ts",
+      "./node_modules/@lit/reactive-element/decorators/state.d.ts",
       "./node_modules/@lit/reactive-element/reactive-controller.d.ts",
       "./node_modules/@lit/reactive-element/reactive-element.d.ts",
       "./node_modules/@types/common-tags/index.d.ts",
@@ -360,7 +565,10 @@
       "./node_modules/lit-html/directive.d.ts",
       "./node_modules/lit-html/lit-html.d.ts",
       "./node_modules/lit/decorators/custom-element.d.ts",
+      "./node_modules/lit/decorators/property.d.ts",
+      "./node_modules/lit/decorators/state.d.ts",
       "./node_modules/lit/index.d.ts",
+      "./node_modules/moment/ts3.1-typings/moment.d.ts",
       "./node_modules/tslib/tslib.d.ts",
       "../../../../usr/local/lib/node_modules/typescript/lib/lib.dom.d.ts",
       "../../../../usr/local/lib/node_modules/typescript/lib/lib.dom.iterable.d.ts",
