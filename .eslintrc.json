@@ -1,0 +1,44 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:wc/recommended",
+    "plugin:lit/recommended",
+    "prettier"
+  ],
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint", "import", "unused-imports"],
+  "parserOptions": {
+    "sourceType": "module",
+    "project": ["./tsconfig.json"]
+  },
+  "rules": {
+    "@typescript-eslint/ban-ts-comment": "off",
+    "@typescript-eslint/member-ordering": "error",
+    "@typescript-eslint/no-explicit-any": "off",
+    "array-callback-return": "error",
+    "no-constructor-return": "error",
+    "no-console": "error",
+    "no-self-compare": "error",
+    "no-empty-function": "error",
+    "no-invalid-this": "error",
+    "no-lone-blocks": "error",
+    "no-lonely-if": "error",
+    "no-param-reassign": "error",
+    "no-promise-executor-return": "error",
+    "no-return-await": "error",
+    "no-template-curly-in-string": "error",
+    "no-undefined": "error",
+    "no-underscore-dangle": "error",
+    "no-unmodified-loop-condition": "error",
+    "no-unreachable-loop": "error",
+    "no-unused-expressions": "error",
+    "no-unused-private-class-members": "error",
+    "no-use-before-define": "error",
+    "require-atomic-updates": "error",
+    "require-await": "error",
+    "unused-imports/no-unused-imports": "error"
+  }
+}
