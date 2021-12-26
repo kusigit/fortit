@@ -2,9 +2,6 @@
   "name": "fwc",
   "version": "0.1.0",
   "description": "Fort-IT web components",
-  "engines": {
-    "node": "14"
-  },
   "dependencies": {
     "lit": "2.0.2"
   },
