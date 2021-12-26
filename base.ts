@@ -1,10 +1,10 @@
 import moment from 'moment';
 
 // @ts-ignore
-const dynMessages = import('./client/i18n/messages');
+const messages = await import('./client/i18n/messages');
 
 const dynMsg = (key: string): string => {
-  const message = dynMessages[key];
+  const message = messages.default[key];
   if (!message) {
     // eslint-disable-next-line no-console
     console.warn(`Dynamic message not found: ${key}`);
