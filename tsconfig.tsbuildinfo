@@ -111,6 +111,21 @@
         "signature": "4576b4e61049f5ffd7c9e935cf88832e089265bdb15ffc35077310042cbbbeea",
         "affectsGlobalScope": false
       },
+      "./node_modules/moment/ts3.1-typings/moment.d.ts": {
+        "version": "f97edc4d3b4dd0b32766e9633086497565c37657fb591cc84a35864db4bc2fc5",
+        "signature": "f97edc4d3b4dd0b32766e9633086497565c37657fb591cc84a35864db4bc2fc5",
+        "affectsGlobalScope": false
+      },
+      "./base.ts": {
+        "version": "0cdebbcb3e532aae021776347c0e8bece31620e52a6ed8e1edc670a84a5a5113",
+        "signature": "abd1d9300b209762a46667af4352b5fabfaaf3b3112cce3673a72729ff0249b8",
+        "affectsGlobalScope": false
+      },
+      "./index.ts": {
+        "version": "acea5e413515fdd1e38da885d0fb1414b7377af4c9b138b6e54af9c840891c41",
+        "signature": "acea5e413515fdd1e38da885d0fb1414b7377af4c9b138b6e54af9c840891c41",
+        "affectsGlobalScope": false
+      },
       "./node_modules/@lit/reactive-element/css-tag.d.ts": {
         "version": "0c8a56610b08f55e29ffb466cd27626ad6dbe822312a398026e82270c63088e3",
         "signature": "0c8a56610b08f55e29ffb466cd27626ad6dbe822312a398026e82270c63088e3",
@@ -156,6 +171,26 @@
         "signature": "f07a77a7fb1d49aa2b61cb68bf712a083487acd7130d20223a83de03af0c257d",
         "affectsGlobalScope": false
       },
+      "./node_modules/@lit/reactive-element/decorators/base.d.ts": {
+        "version": "97c58f6db61d45712d91d2260994817ae2b568bbb37cc280013079b6b5d2232d",
+        "signature": "97c58f6db61d45712d91d2260994817ae2b568bbb37cc280013079b6b5d2232d",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@lit/reactive-element/decorators/custom-element.d.ts": {
+        "version": "ac388c7c7a262213a3700451bc921e382a93fb27c0252c34ccf03540b4ce044b",
+        "signature": "ac388c7c7a262213a3700451bc921e382a93fb27c0252c34ccf03540b4ce044b",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/lit/decorators/custom-element.d.ts": {
+        "version": "42a6711db284605f8208108859b25e1415d332d5f4915aea7cde3e1d7c04d83b",
+        "signature": "42a6711db284605f8208108859b25e1415d332d5f4915aea7cde3e1d7c04d83b",
+        "affectsGlobalScope": false
+      },
+      "./fwc-card/fwc-card.ts": {
+        "version": "40f0a5e5ddc82204525e5affd72d4c5c6bbb2769fb32a0dccb9d5bcab559ceb7",
+        "signature": "5520c50d632d357b2a0de0eb61dcc4ce75113407a585daf680b42d319dcd33f3",
+        "affectsGlobalScope": true
+      },
       "./node_modules/@lit/localize/internal/str-tag.d.ts": {
         "version": "08bae564269612dc1909bdf7f747766c235b85641f6d156bccc9ee9876fb2435",
         "signature": "08bae564269612dc1909bdf7f747766c235b85641f6d156bccc9ee9876fb2435",
@@ -174,11 +209,6 @@
       "./node_modules/@lit/localize/internal/localized-controller.d.ts": {
         "version": "b49ff59927171643840b1349c9a0b39453e0613e69aa25d588c6c24ccb37fbe1",
         "signature": "b49ff59927171643840b1349c9a0b39453e0613e69aa25d588c6c24ccb37fbe1",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@lit/reactive-element/decorators/base.d.ts": {
-        "version": "97c58f6db61d45712d91d2260994817ae2b568bbb37cc280013079b6b5d2232d",
-        "signature": "97c58f6db61d45712d91d2260994817ae2b568bbb37cc280013079b6b5d2232d",
         "affectsGlobalScope": false
       },
       "./node_modules/@lit/localize/internal/localized-decorator.d.ts": {
@@ -200,31 +230,6 @@
         "version": "b48bf76c500cfcff3a39db7c8b649a7800eeacceb2a97e46a22abae3f1dc4de6",
         "signature": "b48bf76c500cfcff3a39db7c8b649a7800eeacceb2a97e46a22abae3f1dc4de6",
         "affectsGlobalScope": false
-      },
-      "./node_modules/moment/ts3.1-typings/moment.d.ts": {
-        "version": "f97edc4d3b4dd0b32766e9633086497565c37657fb591cc84a35864db4bc2fc5",
-        "signature": "f97edc4d3b4dd0b32766e9633086497565c37657fb591cc84a35864db4bc2fc5",
-        "affectsGlobalScope": false
-      },
-      "./base.ts": {
-        "version": "3243a1e1d8641c7caa080224b738a2d5ba2d2dc123fa13f7744252908137262b",
-        "signature": "4f9e92d8e1c7785d4d9e34184a536f05e4219f9c6cf58070bc35fea4b41f841a",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@lit/reactive-element/decorators/custom-element.d.ts": {
-        "version": "ac388c7c7a262213a3700451bc921e382a93fb27c0252c34ccf03540b4ce044b",
-        "signature": "ac388c7c7a262213a3700451bc921e382a93fb27c0252c34ccf03540b4ce044b",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/lit/decorators/custom-element.d.ts": {
-        "version": "42a6711db284605f8208108859b25e1415d332d5f4915aea7cde3e1d7c04d83b",
-        "signature": "42a6711db284605f8208108859b25e1415d332d5f4915aea7cde3e1d7c04d83b",
-        "affectsGlobalScope": false
-      },
-      "./fwc-card/fwc-card.ts": {
-        "version": "40f0a5e5ddc82204525e5affd72d4c5c6bbb2769fb32a0dccb9d5bcab559ceb7",
-        "signature": "5520c50d632d357b2a0de0eb61dcc4ce75113407a585daf680b42d319dcd33f3",
-        "affectsGlobalScope": true
       },
       "./node_modules/@lit/reactive-element/decorators/property.d.ts": {
         "version": "9bdb35d0b28dcd5d8f0879bd29f0cf07b7eb48aa63be4dd44057e32fcfeb1c83",
@@ -284,7 +289,7 @@
     },
     "options": {
       "target": 4,
-      "module": 5,
+      "module": 6,
       "moduleResolution": 2,
       "lib": [
         "lib.es2017.d.ts",
@@ -345,7 +350,6 @@
     },
     "referencedMap": {
       "./base.ts": [
-        "./node_modules/@lit/localize/lit-localize.d.ts",
         "./node_modules/moment/ts3.1-typings/moment.d.ts",
         "./node_modules/tslib/tslib.d.ts"
       ],
@@ -369,6 +373,10 @@
       ],
       "./fwc-data-table/index.ts": [
         "./fwc-data-table/fwc-data-table.ts",
+        "./node_modules/tslib/tslib.d.ts"
+      ],
+      "./index.ts": [
+        "./base.ts",
         "./node_modules/tslib/tslib.d.ts"
       ],
       "./node_modules/@lit/localize/init/runtime.d.ts": [
@@ -456,6 +464,9 @@
       "./fwc-data-table/index.ts": [
         "./fwc-data-table/fwc-data-table.ts"
       ],
+      "./index.ts": [
+        "./base.ts"
+      ],
       "./node_modules/@lit/localize/init/runtime.d.ts": [
         "./node_modules/@lit/localize/internal/types.d.ts"
       ],
@@ -534,6 +545,7 @@
       "./fwc-card/index.ts",
       "./fwc-data-table/fwc-data-table.ts",
       "./fwc-data-table/index.ts",
+      "./index.ts",
       "./node_modules/@lit/localize/init/runtime.d.ts",
       "./node_modules/@lit/localize/init/transform.d.ts",
       "./node_modules/@lit/localize/internal/locale-status-event.d.ts",
