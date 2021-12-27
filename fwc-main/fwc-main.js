@@ -39,6 +39,9 @@ FwcMain.styles = css `
     }
 
     slot[name='title'] {
+      font-size: 24px;
+      font-weight: 400;
+      margin: 0;
       flex-grow: 1;
     }
 

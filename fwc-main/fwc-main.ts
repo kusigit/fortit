@@ -1,7 +1,7 @@
-import {TemplateResult, html, css, LitElement, nothing} from 'lit';
-import {customElement} from 'lit/decorators/custom-element.js';
-import {property} from 'lit/decorators/property.js';
-import {msg} from '@lit/localize';
+import { TemplateResult, html, css, LitElement, nothing } from 'lit';
+import { customElement } from 'lit/decorators/custom-element.js';
+import { property } from 'lit/decorators/property.js';
+import { msg } from '@lit/localize';
 
 import '@material/mwc-icon-button';
 
@@ -20,6 +20,9 @@ export class FwcMain extends LitElement {
     }
 
     slot[name='title'] {
+      font-size: 24px;
+      font-weight: 400;
+      margin: 0;
       flex-grow: 1;
     }
 
@@ -39,7 +42,7 @@ export class FwcMain extends LitElement {
     }
   `;
 
-  @property({type: String})
+  @property({ type: String })
   backUrl = '';
 
   protected render(): TemplateResult {
