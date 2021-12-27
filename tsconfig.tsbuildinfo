@@ -186,9 +186,19 @@
         "signature": "42a6711db284605f8208108859b25e1415d332d5f4915aea7cde3e1d7c04d83b",
         "affectsGlobalScope": false
       },
+      "./node_modules/@lit/reactive-element/decorators/property.d.ts": {
+        "version": "9bdb35d0b28dcd5d8f0879bd29f0cf07b7eb48aa63be4dd44057e32fcfeb1c83",
+        "signature": "9bdb35d0b28dcd5d8f0879bd29f0cf07b7eb48aa63be4dd44057e32fcfeb1c83",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/lit/decorators/property.d.ts": {
+        "version": "d3890804856d6e2c7fdb024fb5eb1f59c4663545327894dba8f7429723fc5f71",
+        "signature": "d3890804856d6e2c7fdb024fb5eb1f59c4663545327894dba8f7429723fc5f71",
+        "affectsGlobalScope": false
+      },
       "./fwc-card/fwc-card.ts": {
-        "version": "7393c7e1c2c8d8a1899c8b11287c9884f3ce6990af29dda09e99d604fe3e41f0",
-        "signature": "5520c50d632d357b2a0de0eb61dcc4ce75113407a585daf680b42d319dcd33f3",
+        "version": "e46d42db8ce652f596b2e414cdb6c2a659bd5bff37fdc3ea7f1b9a54c97758ac",
+        "signature": "fa8bc0055f33dcf1ac209c20a15d199c542c5dbbe43270c1a76f3d359eec0a5c",
         "affectsGlobalScope": true
       },
       "./node_modules/@lit/localize/internal/str-tag.d.ts": {
@@ -229,16 +239,6 @@
       "./node_modules/@lit/localize/lit-localize.d.ts": {
         "version": "b48bf76c500cfcff3a39db7c8b649a7800eeacceb2a97e46a22abae3f1dc4de6",
         "signature": "b48bf76c500cfcff3a39db7c8b649a7800eeacceb2a97e46a22abae3f1dc4de6",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@lit/reactive-element/decorators/property.d.ts": {
-        "version": "9bdb35d0b28dcd5d8f0879bd29f0cf07b7eb48aa63be4dd44057e32fcfeb1c83",
-        "signature": "9bdb35d0b28dcd5d8f0879bd29f0cf07b7eb48aa63be4dd44057e32fcfeb1c83",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/lit/decorators/property.d.ts": {
-        "version": "d3890804856d6e2c7fdb024fb5eb1f59c4663545327894dba8f7429723fc5f71",
-        "signature": "d3890804856d6e2c7fdb024fb5eb1f59c4663545327894dba8f7429723fc5f71",
         "affectsGlobalScope": false
       },
       "./node_modules/@lit/reactive-element/decorators/state.d.ts": {
@@ -545,6 +545,7 @@
       ],
       "./fwc-card/fwc-card.ts": [
         "./node_modules/lit/decorators/custom-element.d.ts",
+        "./node_modules/lit/decorators/property.d.ts",
         "./node_modules/lit/index.d.ts",
         "./node_modules/tslib/tslib.d.ts"
       ],

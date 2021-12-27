@@ -1,5 +1,6 @@
 import {TemplateResult, html, css, LitElement} from 'lit';
 import {customElement} from 'lit/decorators/custom-element.js';
+import {property} from 'lit/decorators/property.js';
 
 @customElement('fwc-card')
 export class FwcCard extends LitElement {
@@ -17,42 +18,35 @@ export class FwcCard extends LitElement {
       --padding-medium: var(--fwc-padding-medium, 24px);
     }
 
+    slot {
+      display: block;
+    }
+
+    slot.padded {
+      padding: 0 var(--padding-medium);
+    }
+
     slot[name='header'] {
       display: flex;
       justify-content: space-between;
       align-items: center;
     }
-
-    slot[name='header'][padded] {
-      padding: 12px var(--padding-medium);
-    }
-
-    slot[name='content'] {
-      display: block;
-    }
-
-    slot[name='content'][padded] {
-      padding: 0 var(--padding-medium);
-    }
-
-    .card-action {
-      display: flex;
-      align-items: center;
-      padding: 0px var(--padding-small);
-      height: 56px;
-    }
   `;
+
+  @property({type: Boolean})
+  padded = false;
 
   protected render(): TemplateResult {
     return html`
       <slot name="header"></slot>
-      <slot name="content"></slot>
+      <slot class="${this.padded ? 'padded' : ''}"></slot>
+      <slot name="action"></slot>
     `;
   }
 }
 
 declare global {
   interface HTMLElementTagNameMap {
-    "fwc-card": FwcCard,
+    'fwc-card': FwcCard;
   }
 }

@@ -1,11 +1,17 @@
 import { __decorate } from "tslib";
 import { html, css, LitElement } from 'lit';
 import { customElement } from 'lit/decorators/custom-element.js';
+import { property } from 'lit/decorators/property.js';
 let FwcCard = class FwcCard extends LitElement {
+    constructor() {
+        super(...arguments);
+        this.padded = false;
+    }
     render() {
         return html `
       <slot name="header"></slot>
-      <slot name="content"></slot>
+      <slot class="${this.padded ? 'padded' : ''}"></slot>
+      <slot name="action"></slot>
     `;
     }
 };
@@ -23,31 +29,23 @@ FwcCard.styles = css `
       --padding-medium: var(--fwc-padding-medium, 24px);
     }
 
+    slot {
+      display: block;
+    }
+
+    slot.padded {
+      padding: 0 var(--padding-medium);
+    }
+
     slot[name='header'] {
       display: flex;
       justify-content: space-between;
       align-items: center;
     }
-
-    slot[name='header'][padded] {
-      padding: 12px var(--padding-medium);
-    }
-
-    slot[name='content'] {
-      display: block;
-    }
-
-    slot[name='content'][padded] {
-      padding: 0 var(--padding-medium);
-    }
-
-    .card-action {
-      display: flex;
-      align-items: center;
-      padding: 0px var(--padding-small);
-      height: 56px;
-    }
   `;
+__decorate([
+    property({ type: Boolean })
+], FwcCard.prototype, "padded", void 0);
 FwcCard = __decorate([
     customElement('fwc-card')
 ], FwcCard);
