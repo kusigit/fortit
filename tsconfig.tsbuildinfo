@@ -197,7 +197,7 @@
         "affectsGlobalScope": false
       },
       "./fwc-card/fwc-card.ts": {
-        "version": "d171abd55f92f20e7d87dc27b3824b9d625d9d20bab9c0f9892956edd282109a",
+        "version": "fe7c8e9ae103c23f0fae944e6858bb0018c65fe3c227f6ac58cc7659f4915c8b",
         "signature": "fa8bc0055f33dcf1ac209c20a15d199c542c5dbbe43270c1a76f3d359eec0a5c",
         "affectsGlobalScope": true
       },
@@ -457,7 +457,7 @@
         "affectsGlobalScope": false
       },
       "./fwc-main/fwc-main.ts": {
-        "version": "3a1e8fb65be2bad0f812f0aca2b2b456e2bbc3c04f78d6f4256344bbd73a4b72",
+        "version": "b61389b78d7ddd5d3a62ec30555951d1d7673db7f594063adcec841898f42cfa",
         "signature": "585acb0bdf92bf137a4767f113420e4ae9f0995143f4a6afc0e29adc5062a095",
         "affectsGlobalScope": true
       },

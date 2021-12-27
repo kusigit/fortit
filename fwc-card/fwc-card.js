@@ -35,7 +35,7 @@ FwcCard.styles = css `
       display: block;
     }
 
-    slot.padded {
+    .padded {
       padding: var(--padding-medium);
     }
 

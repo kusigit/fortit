@@ -22,7 +22,7 @@ export class FwcCard extends LitElement {
       display: block;
     }
 
-    slot.padded {
+    .padded {
       padding: var(--padding-medium);
     }
 
