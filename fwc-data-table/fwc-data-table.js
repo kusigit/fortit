@@ -264,6 +264,12 @@ FwcDataTable.styles = css `
       display: none;
     }
 
+    .ellipsis {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
     .action-row {
       display: flex;
       align-items: center;
