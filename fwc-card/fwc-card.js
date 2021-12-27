@@ -27,12 +27,18 @@ FwcCard.styles = css `
       display: flex;
       justify-content: space-between;
       align-items: center;
+    }
+
+    slot[name='header'][padded] {
       padding: 12px var(--padding-medium);
     }
 
     slot[name='content'] {
       display: block;
-      padding: 0 var(--padding-medium) 0 var(--padding-medium);
+    }
+
+    slot[name='content'][padded] {
+      padding: 0 var(--padding-medium);
     }
 
     .card-action {

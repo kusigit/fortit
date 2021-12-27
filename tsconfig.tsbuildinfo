@@ -187,7 +187,7 @@
         "affectsGlobalScope": false
       },
       "./fwc-card/fwc-card.ts": {
-        "version": "40f0a5e5ddc82204525e5affd72d4c5c6bbb2769fb32a0dccb9d5bcab559ceb7",
+        "version": "7393c7e1c2c8d8a1899c8b11287c9884f3ce6990af29dda09e99d604fe3e41f0",
         "signature": "5520c50d632d357b2a0de0eb61dcc4ce75113407a585daf680b42d319dcd33f3",
         "affectsGlobalScope": true
       },
