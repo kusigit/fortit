@@ -8,13 +8,16 @@ import { formatDate, dynMsg } from '../base.js';
 @customElement('fwc-data-table')
 export class FwcDataTable extends LitElement {
   static styles = css`
-    .data-table {
+    table {
+      width: 100%;
+      border-spacing: 0;
+      border-collapse: collapse;
       position: relative;
       table-layout: fixed;
       --mdc-icon-button-size: 32px;
     }
 
-    .data-table th {
+    table th {
       font-size: 12px;
       font-weight: 500;
       height: 56px;
@@ -23,17 +26,17 @@ export class FwcDataTable extends LitElement {
       text-align: left;
     }
 
-    :host-context([mode='modal']) .data-table th,
-    :host-context([mode='modal']) .data-table td {
+    :host-context([mode='modal']) table th,
+    :host-context([mode='modal']) table td {
       padding: 0 var(--padding-small) 0 0;
     }
 
-    :host-context([mode='modal']) .data-table th:not(.wide),
-    :host-context([mode='modal']) .data-table td:not(.wide) {
+    :host-context([mode='modal']) table th:not(.wide),
+    :host-context([mode='modal']) table td:not(.wide) {
       padding-right: 0;
     }
 
-    .data-table .actions {
+    table .actions {
       position: absolute;
       left: 0;
       right: 0;
@@ -48,25 +51,25 @@ export class FwcDataTable extends LitElement {
       );
     }
 
-    .data-table .actions:hover,
-    .data-table tr:hover + .actions {
+    table .actions:hover,
+    table tr:hover + .actions {
       opacity: 1;
     }
 
-    .data-table th .header {
+    table th .header {
       display: flex;
       align-items: center;
       white-space: nowrap;
     }
 
-    .data-table th .title {
+    table th .title {
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
       margin-right: 8px;
     }
 
-    .data-table th mwc-icon-button {
+    table th mwc-icon-button {
       height: 24px;
       vertical-align: middle;
       visibility: hidden;
@@ -74,35 +77,35 @@ export class FwcDataTable extends LitElement {
       --mdc-icon-button-size: 24px;
     }
 
-    .data-table th:hover mwc-icon-button {
+    table th:hover mwc-icon-button {
       color: gray;
       display: inline-block;
       visibility: visible;
     }
 
-    .data-table th mwc-icon-button.asc {
+    table th mwc-icon-button.asc {
       visibility: visible;
       transform: rotate(90deg);
     }
 
-    .data-table th mwc-icon-button.desc {
+    table th mwc-icon-button.desc {
       visibility: visible;
       transform: rotate(-90deg);
     }
 
-    .data-table thead .action {
+    table thead .action {
       border-bottom: 1px solid rgba(0, 0, 0, 0.12);
     }
 
-    .data-table.wide th:last-child {
+    table.wide th:last-child {
       padding-right: var(--padding-medium);
     }
 
-    .data-table.wide td:last-child {
+    table.wide td:last-child {
       padding-right: 0;
     }
 
-    .data-table tbody td {
+    table tbody td {
       font-size: 13px;
       height: 51px;
       white-space: nowrap;
@@ -110,22 +113,22 @@ export class FwcDataTable extends LitElement {
       border-top: 1px solid rgba(0, 0, 0, 0.12);
     }
 
-    .data-table th.right,
-    .data-table td.right {
+    table th.right,
+    table td.right {
       text-align: right;
       padding-right: 16px;
     }
 
-    .data-table tbody td mwc-checkbox {
+    table tbody td mwc-checkbox {
       margin-left: -15px;
     }
 
-    .data-table thead .filter th {
+    table thead .filter th {
       height: 51px;
       border-top: 1px solid rgba(0, 0, 0, 0.12);
     }
 
-    .data-table input[type='text'] {
+    table input[type='text'] {
       outline: none;
       width: 100%;
       padding: 4px 0;
@@ -134,17 +137,17 @@ export class FwcDataTable extends LitElement {
       background-color: transparent;
     }
 
-    .data-table input[type='text']:hover {
+    table input[type='text']:hover {
       border-color: black;
     }
 
-    .data-table input[type='text']:focus {
+    table input[type='text']:focus {
       border-color: var(--mdc-theme-primary);
     }
 
-    :host-context([mode='modal']) .data-table .filter,
-    :host-context([mode='modal']) .data-table .wide,
-    :host-context([mode='modal']) .data-table .actions {
+    :host-context([mode='modal']) table .filter,
+    :host-context([mode='modal']) table .wide,
+    :host-context([mode='modal']) table .actions {
       display: none;
     }
 
@@ -162,13 +165,13 @@ export class FwcDataTable extends LitElement {
       padding-left: var(--padding-medium);
     }
 
-    .data-table tr.remove {
+    table tr.remove {
       border-bottom-color: rgba(var(--mdc-theme-secondary-rgb), 0.5);
       background-color: rgba(var(--mdc-theme-secondary-rgb), 0.5);
     }
 
     @media screen {
-      .data-table tbody tr.error {
+      table tbody tr.error {
         background-color: var(--paper-red-50);
       }
     }
@@ -196,7 +199,7 @@ export class FwcDataTable extends LitElement {
 
   protected render(): TemplateResult {
     return html`
-      <table class="data-table">
+      <table>
         <thead>
           <tr>
             ${this.columns.map(
