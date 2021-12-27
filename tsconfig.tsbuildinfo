@@ -457,7 +457,7 @@
         "affectsGlobalScope": false
       },
       "./fwc-main/fwc-main.ts": {
-        "version": "b138d782e18a08757b52c6ebd42a42d9ef0c29729ed613e0b7458026c190e3b3",
+        "version": "3a1e8fb65be2bad0f812f0aca2b2b456e2bbc3c04f78d6f4256344bbd73a4b72",
         "signature": "585acb0bdf92bf137a4767f113420e4ae9f0995143f4a6afc0e29adc5062a095",
         "affectsGlobalScope": true
       },

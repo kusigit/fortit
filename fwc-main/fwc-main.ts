@@ -20,10 +20,13 @@ export class FwcMain extends LitElement {
     }
 
     slot[name='title'] {
+      flex-grow: 1;
+    }
+
+    [slot='title'] {
       font-size: 24px;
       font-weight: 400;
       margin: 0;
-      flex-grow: 1;
     }
 
     slot[name='content'] {
