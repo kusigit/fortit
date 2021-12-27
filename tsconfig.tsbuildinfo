@@ -252,7 +252,7 @@
         "affectsGlobalScope": false
       },
       "./fwc-data-table/fwc-data-table.ts": {
-        "version": "1c52b2baa6c89d3400a18b0fe847c8f91b3a350b810b6bd50555d4c8db932cf6",
+        "version": "c9ff54616a3c82c78cef23c89818173932401fa695bd1c0fa0469154088fe050",
         "signature": "3fee3f24e1605c84f1ed48d7a0d729df3c02c0a6eeb19d964f3848acf4de222c",
         "affectsGlobalScope": true
       },

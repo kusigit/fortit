@@ -57,7 +57,7 @@ let FwcDataTable = class FwcDataTable extends LitElement {
                       ${item[column]}
                     </td>
                   `)}
-                <td class="wide">
+                <div class="actions">
                   ${this.actions.map((action) => html `
                       <mwc-icon-button
                         icon="${action.icon}"
@@ -65,7 +65,7 @@ let FwcDataTable = class FwcDataTable extends LitElement {
                         @click="${() => action.click(item.id)}"
                       ></mwc-icon-button>
                     `)}
-                </td>
+                </div>
               </tr>
             `)}
         </tbody>
@@ -122,9 +122,7 @@ let FwcDataTable = class FwcDataTable extends LitElement {
 };
 FwcDataTable.styles = css `
     .data-table {
-      width: 100%;
-      border-spacing: 0px;
-      border-collapse: collapse;
+      position: relative;
       table-layout: fixed;
       --mdc-icon-button-size: 32px;
     }
@@ -134,17 +132,38 @@ FwcDataTable.styles = css `
       font-weight: 500;
       height: 56px;
       line-height: 56px;
-      padding: 0 var(--padding-medium) 0 0;
+      padding: 0 var(--padding-small) 0 var(--padding-small);
       text-align: left;
     }
 
-    .data-table.narrow th:not(.wide),
-    .data-table.narrow td:not(.wide) {
+    :host-context([mode='modal']) .data-table th,
+    :host-context([mode='modal']) .data-table td {
+      padding: 0 var(--padding-small) 0 0;
+    }
+
+    :host-context([mode='modal']) .data-table th:not(.wide),
+    :host-context([mode='modal']) .data-table td:not(.wide) {
       padding-right: 0;
     }
 
-    .data-table:not(.narrow) th:nth-last-child(1) {
-      width: 70px;
+    .data-table .actions {
+      position: absolute;
+      left: 0;
+      right: 0;
+      padding: 9.5px var(--padding-small);
+      margin-top: -51px;
+      opacity: 0;
+      text-align: right;
+      background: linear-gradient(
+        -90deg,
+        var(--material-color-grey-100) 230px,
+        rgba(0, 0, 0, 0.04) 230px
+      );
+    }
+
+    .data-table .actions:hover,
+    .data-table tr:hover + .actions {
+      opacity: 1;
     }
 
     .data-table th .header {
@@ -200,7 +219,7 @@ FwcDataTable.styles = css `
       font-size: 13px;
       height: 51px;
       white-space: nowrap;
-      padding: 0 var(--padding-medium) 0 0;
+      padding: 0 var(--padding-small) 0 var(--padding-small);
       border-top: 1px solid rgba(0, 0, 0, 0.12);
     }
 
@@ -242,12 +261,6 @@ FwcDataTable.styles = css `
       display: none;
     }
 
-    .ellipsis {
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-    }
-
     .action-row {
       display: flex;
       align-items: center;
@@ -268,15 +281,6 @@ FwcDataTable.styles = css `
     }
 
     @media screen {
-      .data-table tbody tr:hover,
-      .data-table tbody tr.selected:hover {
-        background-color: var(--material-color-grey-200);
-      }
-
-      .data-table tbody tr.selected {
-        background-color: var(--material-color-grey-100);
-      }
-
       .data-table tbody tr.error {
         background-color: var(--paper-red-50);
       }

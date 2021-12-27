@@ -9,9 +9,7 @@ import { formatDate, dynMsg } from '../base.js';
 export class FwcDataTable extends LitElement {
   static styles = css`
     .data-table {
-      width: 100%;
-      border-spacing: 0px;
-      border-collapse: collapse;
+      position: relative;
       table-layout: fixed;
       --mdc-icon-button-size: 32px;
     }
@@ -21,17 +19,38 @@ export class FwcDataTable extends LitElement {
       font-weight: 500;
       height: 56px;
       line-height: 56px;
-      padding: 0 var(--padding-medium) 0 0;
+      padding: 0 var(--padding-small) 0 var(--padding-small);
       text-align: left;
     }
 
-    .data-table.narrow th:not(.wide),
-    .data-table.narrow td:not(.wide) {
+    :host-context([mode='modal']) .data-table th,
+    :host-context([mode='modal']) .data-table td {
+      padding: 0 var(--padding-small) 0 0;
+    }
+
+    :host-context([mode='modal']) .data-table th:not(.wide),
+    :host-context([mode='modal']) .data-table td:not(.wide) {
       padding-right: 0;
     }
 
-    .data-table:not(.narrow) th:nth-last-child(1) {
-      width: 70px;
+    .data-table .actions {
+      position: absolute;
+      left: 0;
+      right: 0;
+      padding: 9.5px var(--padding-small);
+      margin-top: -51px;
+      opacity: 0;
+      text-align: right;
+      background: linear-gradient(
+        -90deg,
+        var(--material-color-grey-100) 230px,
+        rgba(0, 0, 0, 0.04) 230px
+      );
+    }
+
+    .data-table .actions:hover,
+    .data-table tr:hover + .actions {
+      opacity: 1;
     }
 
     .data-table th .header {
@@ -87,7 +106,7 @@ export class FwcDataTable extends LitElement {
       font-size: 13px;
       height: 51px;
       white-space: nowrap;
-      padding: 0 var(--padding-medium) 0 0;
+      padding: 0 var(--padding-small) 0 var(--padding-small);
       border-top: 1px solid rgba(0, 0, 0, 0.12);
     }
 
@@ -129,12 +148,6 @@ export class FwcDataTable extends LitElement {
       display: none;
     }
 
-    .ellipsis {
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-    }
-
     .action-row {
       display: flex;
       align-items: center;
@@ -155,15 +168,6 @@ export class FwcDataTable extends LitElement {
     }
 
     @media screen {
-      .data-table tbody tr:hover,
-      .data-table tbody tr.selected:hover {
-        background-color: var(--material-color-grey-200);
-      }
-
-      .data-table tbody tr.selected {
-        background-color: var(--material-color-grey-100);
-      }
-
       .data-table tbody tr.error {
         background-color: var(--paper-red-50);
       }
@@ -237,7 +241,7 @@ export class FwcDataTable extends LitElement {
                     </td>
                   `
                 )}
-                <td class="wide">
+                <div class="actions">
                   ${this.actions.map(
                     (action: any) => html`
                       <mwc-icon-button
@@ -247,7 +251,7 @@ export class FwcDataTable extends LitElement {
                       ></mwc-icon-button>
                     `
                   )}
-                </td>
+                </div>
               </tr>
             `
           )}
