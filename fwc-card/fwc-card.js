@@ -9,9 +9,11 @@ let FwcCard = class FwcCard extends LitElement {
     }
     render() {
         return html `
-      <slot name="header"></slot>
-      <slot class="${this.padded ? 'padded' : ''}"></slot>
-      <slot name="action"></slot>
+      <div class="${this.padded ? 'padded' : ''}">
+        <slot name="header"></slot>
+        <slot></slot>
+        <slot name="action"></slot>
+      </div>
     `;
     }
 };
@@ -34,7 +36,7 @@ FwcCard.styles = css `
     }
 
     slot.padded {
-      padding: 0 var(--padding-medium);
+      padding: var(--padding-medium);
     }
 
     slot[name='header'] {

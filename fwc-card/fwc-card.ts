@@ -1,6 +1,6 @@
-import {TemplateResult, html, css, LitElement} from 'lit';
-import {customElement} from 'lit/decorators/custom-element.js';
-import {property} from 'lit/decorators/property.js';
+import { TemplateResult, html, css, LitElement } from 'lit';
+import { customElement } from 'lit/decorators/custom-element.js';
+import { property } from 'lit/decorators/property.js';
 
 @customElement('fwc-card')
 export class FwcCard extends LitElement {
@@ -23,7 +23,7 @@ export class FwcCard extends LitElement {
     }
 
     slot.padded {
-      padding: 0 var(--padding-medium);
+      padding: var(--padding-medium);
     }
 
     slot[name='header'] {
@@ -33,14 +33,16 @@ export class FwcCard extends LitElement {
     }
   `;
 
-  @property({type: Boolean})
+  @property({ type: Boolean })
   padded = false;
 
   protected render(): TemplateResult {
     return html`
-      <slot name="header"></slot>
-      <slot class="${this.padded ? 'padded' : ''}"></slot>
-      <slot name="action"></slot>
+      <div class="${this.padded ? 'padded' : ''}">
+        <slot name="header"></slot>
+        <slot></slot>
+        <slot name="action"></slot>
+      </div>
     `;
   }
 }

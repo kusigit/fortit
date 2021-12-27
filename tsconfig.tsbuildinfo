@@ -197,7 +197,7 @@
         "affectsGlobalScope": false
       },
       "./fwc-card/fwc-card.ts": {
-        "version": "e46d42db8ce652f596b2e414cdb6c2a659bd5bff37fdc3ea7f1b9a54c97758ac",
+        "version": "d171abd55f92f20e7d87dc27b3824b9d625d9d20bab9c0f9892956edd282109a",
         "signature": "fa8bc0055f33dcf1ac209c20a15d199c542c5dbbe43270c1a76f3d359eec0a5c",
         "affectsGlobalScope": true
       },
@@ -456,6 +456,16 @@
         "signature": "e051b276e0116a5badf48dd605e6f568757ccf34fa890974e23eadf00d3b026e",
         "affectsGlobalScope": false
       },
+      "./fwc-main/fwc-main.ts": {
+        "version": "809aa827cab53e25e09040c34d5ffff687d4175e8b67cef8c34ad7bbbbd5c9eb",
+        "signature": "585acb0bdf92bf137a4767f113420e4ae9f0995143f4a6afc0e29adc5062a095",
+        "affectsGlobalScope": true
+      },
+      "./fwc-main/index.ts": {
+        "version": "20a870feabcd563628cacc0d2310f91d97c51b3dfff542a13f46ea10fb1a1253",
+        "signature": "20a870feabcd563628cacc0d2310f91d97c51b3dfff542a13f46ea10fb1a1253",
+        "affectsGlobalScope": false
+      },
       "./node_modules/@types/common-tags/index.d.ts": {
         "version": "c5590caef278ad8ba2532ec93e29a32ac354dfb333277348acce18512891d3b2",
         "signature": "c5590caef278ad8ba2532ec93e29a32ac354dfb333277348acce18512891d3b2",
@@ -581,6 +591,18 @@
       ],
       "./fwc-data-table/index.ts": [
         "./fwc-data-table/fwc-data-table.ts",
+        "./node_modules/tslib/tslib.d.ts"
+      ],
+      "./fwc-main/fwc-main.ts": [
+        "./node_modules/@lit/localize/lit-localize.d.ts",
+        "./node_modules/@material/mwc-icon-button/mwc-icon-button.d.ts",
+        "./node_modules/lit/decorators/custom-element.d.ts",
+        "./node_modules/lit/decorators/property.d.ts",
+        "./node_modules/lit/index.d.ts",
+        "./node_modules/tslib/tslib.d.ts"
+      ],
+      "./fwc-main/index.ts": [
+        "./fwc-main/index.ts",
         "./node_modules/tslib/tslib.d.ts"
       ],
       "./index.ts": [
@@ -816,6 +838,13 @@
       "./fwc-data-table/index.ts": [
         "./fwc-data-table/fwc-data-table.ts"
       ],
+      "./fwc-main/fwc-main.ts": [
+        "./node_modules/@material/mwc-icon-button/mwc-icon-button.d.ts",
+        "./node_modules/lit/index.d.ts"
+      ],
+      "./fwc-main/index.ts": [
+        "./fwc-main/index.ts"
+      ],
       "./index.ts": [
         "./base.ts"
       ],
@@ -1033,6 +1062,8 @@
       "./fwc-chip-list/index.ts",
       "./fwc-data-table/fwc-data-table.ts",
       "./fwc-data-table/index.ts",
+      "./fwc-main/fwc-main.ts",
+      "./fwc-main/index.ts",
       "./index.ts",
       "./node_modules/@lit/localize/init/runtime.d.ts",
       "./node_modules/@lit/localize/init/transform.d.ts",
