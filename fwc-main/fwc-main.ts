@@ -65,6 +65,7 @@ export class FwcMain extends LitElement {
             `
           : nothing}
         <slot name="title"></slot>
+        <slot name="secondary"></slot>
         <slot name="primary"></slot>
       </div>
       <slot name="content"></slot>
