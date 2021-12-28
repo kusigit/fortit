@@ -121,11 +121,6 @@
         "signature": "4f9e92d8e1c7785d4d9e34184a536f05e4219f9c6cf58070bc35fea4b41f841a",
         "affectsGlobalScope": false
       },
-      "./index.ts": {
-        "version": "acea5e413515fdd1e38da885d0fb1414b7377af4c9b138b6e54af9c840891c41",
-        "signature": "acea5e413515fdd1e38da885d0fb1414b7377af4c9b138b6e54af9c840891c41",
-        "affectsGlobalScope": false
-      },
       "./node_modules/@lit/reactive-element/css-tag.d.ts": {
         "version": "0c8a56610b08f55e29ffb466cd27626ad6dbe822312a398026e82270c63088e3",
         "signature": "0c8a56610b08f55e29ffb466cd27626ad6dbe822312a398026e82270c63088e3",
@@ -171,36 +166,6 @@
         "signature": "f07a77a7fb1d49aa2b61cb68bf712a083487acd7130d20223a83de03af0c257d",
         "affectsGlobalScope": false
       },
-      "./node_modules/@lit/reactive-element/decorators/base.d.ts": {
-        "version": "97c58f6db61d45712d91d2260994817ae2b568bbb37cc280013079b6b5d2232d",
-        "signature": "97c58f6db61d45712d91d2260994817ae2b568bbb37cc280013079b6b5d2232d",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@lit/reactive-element/decorators/custom-element.d.ts": {
-        "version": "ac388c7c7a262213a3700451bc921e382a93fb27c0252c34ccf03540b4ce044b",
-        "signature": "ac388c7c7a262213a3700451bc921e382a93fb27c0252c34ccf03540b4ce044b",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/lit/decorators/custom-element.d.ts": {
-        "version": "42a6711db284605f8208108859b25e1415d332d5f4915aea7cde3e1d7c04d83b",
-        "signature": "42a6711db284605f8208108859b25e1415d332d5f4915aea7cde3e1d7c04d83b",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@lit/reactive-element/decorators/property.d.ts": {
-        "version": "9bdb35d0b28dcd5d8f0879bd29f0cf07b7eb48aa63be4dd44057e32fcfeb1c83",
-        "signature": "9bdb35d0b28dcd5d8f0879bd29f0cf07b7eb48aa63be4dd44057e32fcfeb1c83",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/lit/decorators/property.d.ts": {
-        "version": "d3890804856d6e2c7fdb024fb5eb1f59c4663545327894dba8f7429723fc5f71",
-        "signature": "d3890804856d6e2c7fdb024fb5eb1f59c4663545327894dba8f7429723fc5f71",
-        "affectsGlobalScope": false
-      },
-      "./fwc-card/fwc-card.ts": {
-        "version": "fe7c8e9ae103c23f0fae944e6858bb0018c65fe3c227f6ac58cc7659f4915c8b",
-        "signature": "fa8bc0055f33dcf1ac209c20a15d199c542c5dbbe43270c1a76f3d359eec0a5c",
-        "affectsGlobalScope": true
-      },
       "./node_modules/@lit/localize/internal/str-tag.d.ts": {
         "version": "08bae564269612dc1909bdf7f747766c235b85641f6d156bccc9ee9876fb2435",
         "signature": "08bae564269612dc1909bdf7f747766c235b85641f6d156bccc9ee9876fb2435",
@@ -219,6 +184,11 @@
       "./node_modules/@lit/localize/internal/localized-controller.d.ts": {
         "version": "b49ff59927171643840b1349c9a0b39453e0613e69aa25d588c6c24ccb37fbe1",
         "signature": "b49ff59927171643840b1349c9a0b39453e0613e69aa25d588c6c24ccb37fbe1",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@lit/reactive-element/decorators/base.d.ts": {
+        "version": "97c58f6db61d45712d91d2260994817ae2b568bbb37cc280013079b6b5d2232d",
+        "signature": "97c58f6db61d45712d91d2260994817ae2b568bbb37cc280013079b6b5d2232d",
         "affectsGlobalScope": false
       },
       "./node_modules/@lit/localize/internal/localized-decorator.d.ts": {
@@ -241,30 +211,30 @@
         "signature": "b48bf76c500cfcff3a39db7c8b649a7800eeacceb2a97e46a22abae3f1dc4de6",
         "affectsGlobalScope": false
       },
-      "./node_modules/@lit/reactive-element/decorators/state.d.ts": {
-        "version": "fb0107c83e2e0e75b77dacd0c3c6c3ab6844e98dce2a8f858c6f0a57c12136a6",
-        "signature": "fb0107c83e2e0e75b77dacd0c3c6c3ab6844e98dce2a8f858c6f0a57c12136a6",
+      "./node_modules/@lit/reactive-element/decorators/custom-element.d.ts": {
+        "version": "ac388c7c7a262213a3700451bc921e382a93fb27c0252c34ccf03540b4ce044b",
+        "signature": "ac388c7c7a262213a3700451bc921e382a93fb27c0252c34ccf03540b4ce044b",
         "affectsGlobalScope": false
       },
-      "./node_modules/lit/decorators/state.d.ts": {
-        "version": "76d543256b0e5bf935967f6069c907fd5d1bb7847846bf0dd7708363bc331ee4",
-        "signature": "76d543256b0e5bf935967f6069c907fd5d1bb7847846bf0dd7708363bc331ee4",
+      "./node_modules/lit/decorators/custom-element.d.ts": {
+        "version": "42a6711db284605f8208108859b25e1415d332d5f4915aea7cde3e1d7c04d83b",
+        "signature": "42a6711db284605f8208108859b25e1415d332d5f4915aea7cde3e1d7c04d83b",
         "affectsGlobalScope": false
       },
-      "./fwc-data-table/fwc-data-table.ts": {
-        "version": "21d016eec18b89015d52f0016df9acf62863d2febd3b0221d5caff83484ce8e8",
-        "signature": "3fee3f24e1605c84f1ed48d7a0d729df3c02c0a6eeb19d964f3848acf4de222c",
+      "./node_modules/@lit/reactive-element/decorators/property.d.ts": {
+        "version": "9bdb35d0b28dcd5d8f0879bd29f0cf07b7eb48aa63be4dd44057e32fcfeb1c83",
+        "signature": "9bdb35d0b28dcd5d8f0879bd29f0cf07b7eb48aa63be4dd44057e32fcfeb1c83",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/lit/decorators/property.d.ts": {
+        "version": "d3890804856d6e2c7fdb024fb5eb1f59c4663545327894dba8f7429723fc5f71",
+        "signature": "d3890804856d6e2c7fdb024fb5eb1f59c4663545327894dba8f7429723fc5f71",
+        "affectsGlobalScope": false
+      },
+      "./fwc-chip/fwc-chip.ts": {
+        "version": "e8b0e519cc8e1e155bf2bb8f27a9b3f66a7bbeb9f86dd3b145488a14fca35ca6",
+        "signature": "fbd11b5874cd60334402d0618c36f6acad8a856b918a610fb2e16024922f988f",
         "affectsGlobalScope": true
-      },
-      "./fwc-data-table/index.ts": {
-        "version": "b15ebf5557452ce70cdd4ee0f9725f871a8995a1da1de7f35aec63c4bacbb65f",
-        "signature": "b15ebf5557452ce70cdd4ee0f9725f871a8995a1da1de7f35aec63c4bacbb65f",
-        "affectsGlobalScope": false
-      },
-      "./fwc-card/index.ts": {
-        "version": "b95b50a0589534a52359df93a6d21ebef246efb82c7ca03c72219ec20cbcd1b6",
-        "signature": "616bbe4e50a89f1b7a00a6e90c507ef7ccdab5b763c769104e16fc56c6445425",
-        "affectsGlobalScope": false
       },
       "./node_modules/@lit/reactive-element/decorators/query.d.ts": {
         "version": "a25d1e52291791819032826af5c52987e16ffdb96e8bb69f7f1790f5ab080be6",
@@ -426,6 +396,16 @@
         "signature": "cfd0e28621fc6be2c70882d7e13c3919275c472f2765c32243b918a01ae3f63f",
         "affectsGlobalScope": true
       },
+      "./node_modules/@lit/reactive-element/decorators/state.d.ts": {
+        "version": "fb0107c83e2e0e75b77dacd0c3c6c3ab6844e98dce2a8f858c6f0a57c12136a6",
+        "signature": "fb0107c83e2e0e75b77dacd0c3c6c3ab6844e98dce2a8f858c6f0a57c12136a6",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/lit/decorators/state.d.ts": {
+        "version": "76d543256b0e5bf935967f6069c907fd5d1bb7847846bf0dd7708363bc331ee4",
+        "signature": "76d543256b0e5bf935967f6069c907fd5d1bb7847846bf0dd7708363bc331ee4",
+        "affectsGlobalScope": false
+      },
       "./node_modules/@material/mwc-icon/mwc-icon.d.ts": {
         "version": "27b285e901600242883d62a5fff9f5d262c6fa128b6e6c6963f981f2630a957e",
         "signature": "27b285e901600242883d62a5fff9f5d262c6fa128b6e6c6963f981f2630a957e",
@@ -451,15 +431,40 @@
         "signature": "a10f95520ba3c09ba5a86a5b042c7d8c6d9539dc014829ebf506f9665e9e676d",
         "affectsGlobalScope": true
       },
-      "./fwc-chip-list/index.ts": {
-        "version": "a1084534c356a3f164f937de2818082273735108553cc1f2f6737ccde0bf3f2a",
-        "signature": "e051b276e0116a5badf48dd605e6f568757ccf34fa890974e23eadf00d3b026e",
-        "affectsGlobalScope": false
+      "./fwc-data-table/fwc-data-table.ts": {
+        "version": "21d016eec18b89015d52f0016df9acf62863d2febd3b0221d5caff83484ce8e8",
+        "signature": "3fee3f24e1605c84f1ed48d7a0d729df3c02c0a6eeb19d964f3848acf4de222c",
+        "affectsGlobalScope": true
       },
       "./fwc-main/fwc-main.ts": {
         "version": "b61389b78d7ddd5d3a62ec30555951d1d7673db7f594063adcec841898f42cfa",
         "signature": "585acb0bdf92bf137a4767f113420e4ae9f0995143f4a6afc0e29adc5062a095",
         "affectsGlobalScope": true
+      },
+      "./index.ts": {
+        "version": "c4cc3c00bf565c3f132b550870bfeab9d29a6539f2770df40fca1b777360ae38",
+        "signature": "7f10d544a82ddc5c5b2eb01cca221ac3d91cbb0a44e56198b2734e0492d9fbc9",
+        "affectsGlobalScope": false
+      },
+      "./fwc-card/fwc-card.ts": {
+        "version": "fe7c8e9ae103c23f0fae944e6858bb0018c65fe3c227f6ac58cc7659f4915c8b",
+        "signature": "fa8bc0055f33dcf1ac209c20a15d199c542c5dbbe43270c1a76f3d359eec0a5c",
+        "affectsGlobalScope": true
+      },
+      "./fwc-data-table/index.ts": {
+        "version": "b15ebf5557452ce70cdd4ee0f9725f871a8995a1da1de7f35aec63c4bacbb65f",
+        "signature": "b15ebf5557452ce70cdd4ee0f9725f871a8995a1da1de7f35aec63c4bacbb65f",
+        "affectsGlobalScope": false
+      },
+      "./fwc-card/index.ts": {
+        "version": "b95b50a0589534a52359df93a6d21ebef246efb82c7ca03c72219ec20cbcd1b6",
+        "signature": "616bbe4e50a89f1b7a00a6e90c507ef7ccdab5b763c769104e16fc56c6445425",
+        "affectsGlobalScope": false
+      },
+      "./fwc-chip-list/index.ts": {
+        "version": "a1084534c356a3f164f937de2818082273735108553cc1f2f6737ccde0bf3f2a",
+        "signature": "e051b276e0116a5badf48dd605e6f568757ccf34fa890974e23eadf00d3b026e",
+        "affectsGlobalScope": false
       },
       "./fwc-main/index.ts": {
         "version": "20a870feabcd563628cacc0d2310f91d97c51b3dfff542a13f46ea10fb1a1253",
@@ -580,6 +585,13 @@
         "./fwc-chip-list/fwc-chip-list.ts",
         "./node_modules/tslib/tslib.d.ts"
       ],
+      "./fwc-chip/fwc-chip.ts": [
+        "./node_modules/@lit/localize/lit-localize.d.ts",
+        "./node_modules/lit/decorators/custom-element.d.ts",
+        "./node_modules/lit/decorators/property.d.ts",
+        "./node_modules/lit/index.d.ts",
+        "./node_modules/tslib/tslib.d.ts"
+      ],
       "./fwc-data-table/fwc-data-table.ts": [
         "./base.ts",
         "./node_modules/@lit/localize/lit-localize.d.ts",
@@ -607,6 +619,10 @@
       ],
       "./index.ts": [
         "./base.ts",
+        "./fwc-chip-list/fwc-chip-list.ts",
+        "./fwc-chip/fwc-chip.ts",
+        "./fwc-data-table/fwc-data-table.ts",
+        "./fwc-main/fwc-main.ts",
         "./node_modules/tslib/tslib.d.ts"
       ],
       "./node_modules/@lit/localize/init/runtime.d.ts": [
@@ -832,6 +848,9 @@
       "./fwc-chip-list/index.ts": [
         "./fwc-chip-list/fwc-chip-list.ts"
       ],
+      "./fwc-chip/fwc-chip.ts": [
+        "./node_modules/lit/index.d.ts"
+      ],
       "./fwc-data-table/fwc-data-table.ts": [
         "./node_modules/lit/index.d.ts"
       ],
@@ -846,7 +865,11 @@
         "./fwc-main/index.ts"
       ],
       "./index.ts": [
-        "./base.ts"
+        "./base.ts",
+        "./fwc-chip-list/fwc-chip-list.ts",
+        "./fwc-chip/fwc-chip.ts",
+        "./fwc-data-table/fwc-data-table.ts",
+        "./fwc-main/fwc-main.ts"
       ],
       "./node_modules/@lit/localize/init/runtime.d.ts": [
         "./node_modules/@lit/localize/internal/types.d.ts"
@@ -1060,6 +1083,7 @@
       "./fwc-card/index.ts",
       "./fwc-chip-list/fwc-chip-list.ts",
       "./fwc-chip-list/index.ts",
+      "./fwc-chip/fwc-chip.ts",
       "./fwc-data-table/fwc-data-table.ts",
       "./fwc-data-table/index.ts",
       "./fwc-main/fwc-main.ts",
