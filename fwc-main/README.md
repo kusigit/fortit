@@ -5,6 +5,10 @@
 ### Standard
 
 ```html
+<script type="module">
+    import 'fortit/fwc-main';
+</script>
+
 <fwc-main>
   <h1 slot="title">${msg(`Hilfe`)}</h1>
   <mwc-button slot="primary" @click="${() => this.addDialog.open()}" unelevated>
