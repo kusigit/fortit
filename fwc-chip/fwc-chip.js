@@ -8,6 +8,7 @@ let FwcChip = class FwcChip extends LitElement {
         super(...arguments);
         this.action = false;
         this.icon = '';
+        this.id = '';
         this.text = '';
     }
     render() {
@@ -70,6 +71,9 @@ __decorate([
 __decorate([
     property({ type: String })
 ], FwcChip.prototype, "icon", void 0);
+__decorate([
+    property({ type: String })
+], FwcChip.prototype, "id", void 0);
 __decorate([
     property({ type: String })
 ], FwcChip.prototype, "text", void 0);

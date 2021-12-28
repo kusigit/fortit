@@ -232,8 +232,8 @@
         "affectsGlobalScope": false
       },
       "./fwc-chip/fwc-chip.ts": {
-        "version": "e8b0e519cc8e1e155bf2bb8f27a9b3f66a7bbeb9f86dd3b145488a14fca35ca6",
-        "signature": "fbd11b5874cd60334402d0618c36f6acad8a856b918a610fb2e16024922f988f",
+        "version": "d7d51861119f84ee37a491216dc56c3990971817c2e544f96fe6a855617ee88b",
+        "signature": "bdac21c90f117951ee475090758128f02f846fbc33b998179c34cc2a7457ad0e",
         "affectsGlobalScope": true
       },
       "./node_modules/@lit/reactive-element/decorators/query.d.ts": {

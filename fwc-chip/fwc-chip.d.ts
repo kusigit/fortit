@@ -3,6 +3,7 @@ export declare class FwcChip extends LitElement {
     static styles: import("lit").CSSResult;
     action: boolean;
     icon: string;
+    id: string;
     text: string;
     protected render(): TemplateResult;
     private dispatch;

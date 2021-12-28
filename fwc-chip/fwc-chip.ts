@@ -44,6 +44,9 @@ export class FwcChip extends LitElement {
   icon = '';
 
   @property({ type: String })
+  id = '';
+
+  @property({ type: String })
   text = '';
 
   protected render(): TemplateResult {
