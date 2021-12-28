@@ -1,4 +1,4 @@
-export { dynMsg, formatDate } from './base';
+export { dynMsg, formatDate } from './base.js';
 
 export * from './fwc-chip/fwc-chip';
 export * from './fwc-chip-list/fwc-chip-list';

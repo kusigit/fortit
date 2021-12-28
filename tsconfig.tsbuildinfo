@@ -442,8 +442,8 @@
         "affectsGlobalScope": true
       },
       "./index.ts": {
-        "version": "c4cc3c00bf565c3f132b550870bfeab9d29a6539f2770df40fca1b777360ae38",
-        "signature": "7f10d544a82ddc5c5b2eb01cca221ac3d91cbb0a44e56198b2734e0492d9fbc9",
+        "version": "de576a69371de0a44f39e18c51681782cbfd7fe4fe4ef64c1804be1e9a376bc9",
+        "signature": "a107cf55af3f58bed4477d29a0842c09b581de65178eb6dcbbe4fafeecb1eb7c",
         "affectsGlobalScope": false
       },
       "./fwc-card/fwc-card.ts": {
