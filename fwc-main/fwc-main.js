@@ -7,11 +7,21 @@ import '@material/mwc-icon-button';
 let FwcMain = class FwcMain extends LitElement {
     constructor() {
         super(...arguments);
+        this.back = false;
         this.backUrl = '';
     }
     render() {
         return html `
       <div class="subheader">
+        ${this.back
+            ? html `
+              <mwc-icon-button
+                icon="chevron_left"
+                title="${msg(`Zurück`)}"
+                @click="${() => window.history.back()}"
+              ></mwc-icon-button>
+            `
+            : nothing}
         ${this.backUrl
             ? html `
               <a href="${this.backUrl}" title="${msg(`Zurück`)}">
@@ -57,6 +67,9 @@ FwcMain.styles = css `
       align-items: center;
     }
   `;
+__decorate([
+    property({ type: Boolean })
+], FwcMain.prototype, "back", void 0);
 __decorate([
     property({ type: String })
 ], FwcMain.prototype, "backUrl", void 0);

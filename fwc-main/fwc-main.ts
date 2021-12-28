@@ -39,12 +39,24 @@ export class FwcMain extends LitElement {
     }
   `;
 
+  @property({ type: Boolean })
+  back = false;
+
   @property({ type: String })
   backUrl = '';
 
   protected render(): TemplateResult {
     return html`
       <div class="subheader">
+        ${this.back
+          ? html`
+              <mwc-icon-button
+                icon="chevron_left"
+                title="${msg(`Zurück`)}"
+                @click="${() => window.history.back()}"
+              ></mwc-icon-button>
+            `
+          : nothing}
         ${this.backUrl
           ? html`
               <a href="${this.backUrl}" title="${msg(`Zurück`)}">
