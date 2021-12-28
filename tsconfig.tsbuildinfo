@@ -232,8 +232,8 @@
         "affectsGlobalScope": false
       },
       "./fwc-chip/fwc-chip.ts": {
-        "version": "d7d51861119f84ee37a491216dc56c3990971817c2e544f96fe6a855617ee88b",
-        "signature": "bdac21c90f117951ee475090758128f02f846fbc33b998179c34cc2a7457ad0e",
+        "version": "f2644285bc8757ef59ea64c5360edb336fc46fbcfe0c401901b71e3f7f9288ed",
+        "signature": "fbd11b5874cd60334402d0618c36f6acad8a856b918a610fb2e16024922f988f",
         "affectsGlobalScope": true
       },
       "./node_modules/@lit/reactive-element/decorators/query.d.ts": {
@@ -451,24 +451,29 @@
         "signature": "fa8bc0055f33dcf1ac209c20a15d199c542c5dbbe43270c1a76f3d359eec0a5c",
         "affectsGlobalScope": true
       },
-      "./fwc-data-table/index.ts": {
-        "version": "b15ebf5557452ce70cdd4ee0f9725f871a8995a1da1de7f35aec63c4bacbb65f",
-        "signature": "b15ebf5557452ce70cdd4ee0f9725f871a8995a1da1de7f35aec63c4bacbb65f",
+      "./fwc-card/index.ts": {
+        "version": "3b92296d30f28392e00287205fa03aab3fc710a3a347078c132d58a5f327c583",
+        "signature": "d788e761cc71982d46e706a6a17fd13a5f3374cbfc00e40ef01b767d45ede0b1",
         "affectsGlobalScope": false
       },
-      "./fwc-card/index.ts": {
-        "version": "b95b50a0589534a52359df93a6d21ebef246efb82c7ca03c72219ec20cbcd1b6",
-        "signature": "616bbe4e50a89f1b7a00a6e90c507ef7ccdab5b763c769104e16fc56c6445425",
+      "./fwc-chip/index.ts": {
+        "version": "cd824b595e92e60830ad7516184ac92beb24acc0713fdd7bd0ec0bd4e8cb6ff8",
+        "signature": "b39b544ba50b887326b0c597c56ae91ebdd54b0d36104ff80e81ef1fca5158d7",
         "affectsGlobalScope": false
       },
       "./fwc-chip-list/index.ts": {
-        "version": "a1084534c356a3f164f937de2818082273735108553cc1f2f6737ccde0bf3f2a",
-        "signature": "e051b276e0116a5badf48dd605e6f568757ccf34fa890974e23eadf00d3b026e",
+        "version": "d36b9f544cf1d07522d87c652d0a17f08205a04783d5b92a1b60e7e17bf47ae1",
+        "signature": "6e3046ea39b03008b7873ee1b386eb51bfc786dcfaaa90e4dee813d0a17b09c3",
+        "affectsGlobalScope": false
+      },
+      "./fwc-data-table/index.ts": {
+        "version": "5a89fe92ca9e29866ba886b2a5698deae8c3f25b8b1bc3ed09c387952ad8134e",
+        "signature": "5a89fe92ca9e29866ba886b2a5698deae8c3f25b8b1bc3ed09c387952ad8134e",
         "affectsGlobalScope": false
       },
       "./fwc-main/index.ts": {
-        "version": "20a870feabcd563628cacc0d2310f91d97c51b3dfff542a13f46ea10fb1a1253",
-        "signature": "20a870feabcd563628cacc0d2310f91d97c51b3dfff542a13f46ea10fb1a1253",
+        "version": "d0220abc996b15e7c33777475e0dc18f065359226fb53d23b48cf3f9ebed9126",
+        "signature": "d0220abc996b15e7c33777475e0dc18f065359226fb53d23b48cf3f9ebed9126",
         "affectsGlobalScope": false
       },
       "./node_modules/@types/common-tags/index.d.ts": {
@@ -565,7 +570,7 @@
         "./node_modules/tslib/tslib.d.ts"
       ],
       "./fwc-card/index.ts": [
-        "./fwc-data-table/index.ts",
+        "./fwc-card/fwc-card.ts",
         "./node_modules/tslib/tslib.d.ts"
       ],
       "./fwc-chip-list/fwc-chip-list.ts": [
@@ -592,6 +597,10 @@
         "./node_modules/lit/index.d.ts",
         "./node_modules/tslib/tslib.d.ts"
       ],
+      "./fwc-chip/index.ts": [
+        "./fwc-chip/fwc-chip.ts",
+        "./node_modules/tslib/tslib.d.ts"
+      ],
       "./fwc-data-table/fwc-data-table.ts": [
         "./base.ts",
         "./node_modules/@lit/localize/lit-localize.d.ts",
@@ -614,7 +623,7 @@
         "./node_modules/tslib/tslib.d.ts"
       ],
       "./fwc-main/index.ts": [
-        "./fwc-main/index.ts",
+        "./fwc-main/fwc-main.ts",
         "./node_modules/tslib/tslib.d.ts"
       ],
       "./index.ts": [
@@ -836,7 +845,7 @@
         "./node_modules/lit/index.d.ts"
       ],
       "./fwc-card/index.ts": [
-        "./fwc-data-table/index.ts"
+        "./fwc-card/fwc-card.ts"
       ],
       "./fwc-chip-list/fwc-chip-list.ts": [
         "./node_modules/@material/mwc-icon-button/mwc-icon-button.d.ts",
@@ -851,6 +860,9 @@
       "./fwc-chip/fwc-chip.ts": [
         "./node_modules/lit/index.d.ts"
       ],
+      "./fwc-chip/index.ts": [
+        "./fwc-chip/fwc-chip.ts"
+      ],
       "./fwc-data-table/fwc-data-table.ts": [
         "./node_modules/lit/index.d.ts"
       ],
@@ -862,7 +874,7 @@
         "./node_modules/lit/index.d.ts"
       ],
       "./fwc-main/index.ts": [
-        "./fwc-main/index.ts"
+        "./fwc-main/fwc-main.ts"
       ],
       "./index.ts": [
         "./base.ts",
@@ -1084,6 +1096,7 @@
       "./fwc-chip-list/fwc-chip-list.ts",
       "./fwc-chip-list/index.ts",
       "./fwc-chip/fwc-chip.ts",
+      "./fwc-chip/index.ts",
       "./fwc-data-table/fwc-data-table.ts",
       "./fwc-data-table/index.ts",
       "./fwc-main/fwc-main.ts",

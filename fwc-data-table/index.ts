@@ -1,1 +1,1 @@
-export * from './fwc-data-table';
+export * from './fwc-data-table.js';

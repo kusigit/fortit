@@ -1,1 +1,1 @@
-export * from '../fwc-main';
+export * from './fwc-main.js';

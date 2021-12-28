@@ -8,7 +8,6 @@ let FwcChip = class FwcChip extends LitElement {
         super(...arguments);
         this.action = false;
         this.icon = '';
-        this.id = '';
         this.text = '';
     }
     render() {
@@ -26,12 +25,7 @@ let FwcChip = class FwcChip extends LitElement {
     }
     dispatch(event) {
         event.stopPropagation();
-        const customEvent = new CustomEvent('remove', {
-            detail: {
-                id: this.id,
-            },
-        });
-        this.dispatchEvent(customEvent);
+        this.dispatchEvent(new CustomEvent('remove'));
     }
 };
 FwcChip.styles = css `
@@ -71,9 +65,6 @@ __decorate([
 __decorate([
     property({ type: String })
 ], FwcChip.prototype, "icon", void 0);
-__decorate([
-    property({ type: String })
-], FwcChip.prototype, "id", void 0);
 __decorate([
     property({ type: String })
 ], FwcChip.prototype, "text", void 0);

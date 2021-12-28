@@ -1,1 +1,1 @@
-{"version":3,"file":"index.js","sourceRoot":"","sources":["index.ts"],"names":[],"mappings":"AAAA,cAAc,mBAAmB,CAAC","sourcesContent":["export * from '../fwc-data-table';"]}
+{"version":3,"file":"index.js","sourceRoot":"","sources":["index.ts"],"names":[],"mappings":"AAAA,cAAc,eAAe,CAAC","sourcesContent":["export * from './fwc-card.js';"]}

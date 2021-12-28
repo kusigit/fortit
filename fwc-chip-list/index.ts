@@ -1,1 +1,1 @@
-export * from './fwc-chip-list';
+export * from './fwc-chip-list.js';

@@ -44,9 +44,6 @@ export class FwcChip extends LitElement {
   icon = '';
 
   @property({ type: String })
-  id = '';
-
-  @property({ type: String })
   text = '';
 
   protected render(): TemplateResult {
@@ -66,13 +63,7 @@ export class FwcChip extends LitElement {
   private dispatch(event: Event) {
     event.stopPropagation();
 
-    const customEvent = new CustomEvent('remove', {
-      detail: {
-        id: this.id,
-      },
-    });
-
-    this.dispatchEvent(customEvent);
+    this.dispatchEvent(new CustomEvent('remove'));
   }
 }
 
