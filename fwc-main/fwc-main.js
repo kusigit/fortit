@@ -41,8 +41,8 @@ FwcMain.styles = css `
     :host {
       display: block;
       margin: 0 auto;
-      padding: var(--padding-medium);
-      max-width: var(--fwc-max-width, 1600px);
+      padding: var(--fwc-main-padding, 24px);
+      max-width: var(--fwc-main-max-width, 1600px);
     }
 
     slot {
@@ -54,7 +54,11 @@ FwcMain.styles = css `
     }
 
     slot[name='content'] {
-      margin-top: var(--padding-medium);
+      margin-top: var(--fwc-main-margin, 24px);
+    }
+
+    slot[name='secondary'] {
+      margin-right: var(--fwc-main-margin, 24px);
     }
 
     a {
