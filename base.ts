@@ -3,6 +3,19 @@ import moment from 'moment';
 // @ts-ignore
 const messages = await import('./client/i18n/messages');
 
+type DebounceCallbackFunction = (event?: Event) => void;
+
+const debounce = (callback: DebounceCallbackFunction, debounceTime = 300) => {
+  let timeout: number;
+  return (event: Event) => {
+    if (timeout) {
+      clearTimeout(timeout);
+    }
+
+    timeout = setTimeout(callback, debounceTime, event);
+  };
+};
+
 const dynMsg = (key: string): string => {
   const message = messages.default[key];
   if (!message) {
@@ -23,4 +36,4 @@ const formatDateTime = (timestamp: number): string =>
 const getDateString = (timestamp?: number, format = 'YYYY-MM-DD'): string =>
   timestamp ? moment(timestamp).format(format) : moment().format(format);
 
-export { dynMsg, formatDate, formatDateTime, getDateString };
+export { debounce, dynMsg, formatDate, formatDateTime, getDateString };

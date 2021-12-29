@@ -117,13 +117,13 @@
         "affectsGlobalScope": false
       },
       "./base.ts": {
-        "version": "093b568917963dd71a57fbeae0296edb2e565ceccef211850d9019116af9629f",
-        "signature": "0f67a7288e80d44eb8fa96b513a8b2da3433ed88cbdd277cbd6217289f1bde84",
+        "version": "85d3f4f5fab03eecb8fe9706c51281dcc44867134aba8eaa7134641674168a2d",
+        "signature": "aa37db466fa807152d037a82be0401ef8f342c2f2d284862d5ca25f7a4e0e3d0",
         "affectsGlobalScope": false
       },
       "./index.ts": {
-        "version": "4d3220891e005d2ec31d5aae2575b18e10b6aa6dadd9f7f559e1272ba114afb5",
-        "signature": "4d3220891e005d2ec31d5aae2575b18e10b6aa6dadd9f7f559e1272ba114afb5",
+        "version": "5987289dda517617e8560231ea9f3292a89623aedbac55d2f1dd51ed56098e3c",
+        "signature": "87a91576aff32c4ea1dc006be450fd947db389fed52c304dbc0b4ac616cd20b6",
         "affectsGlobalScope": false
       },
       "./node_modules/@lit/reactive-element/css-tag.d.ts": {
