@@ -11,5 +11,7 @@ const dynMsg = (key) => {
     return message;
 };
 const formatDate = (timestamp) => timestamp ? moment(timestamp).format('DD.MM.YYYY') : '';
-export { dynMsg, formatDate };
+const formatDateTime = (timestamp) => moment(timestamp).format('DD.MM.YYYY HH:mm');
+const getDateString = (timestamp, format = 'YYYY-MM-DD') => timestamp ? moment(timestamp).format(format) : moment().format(format);
+export { dynMsg, formatDate, formatDateTime, getDateString };
 //# sourceMappingURL=base.js.map

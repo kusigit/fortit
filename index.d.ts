@@ -1,1 +1,1 @@
-export { dynMsg, formatDate } from './base.js';
+export { dynMsg, formatDate, formatDateTime, getDateString } from './base.js';
