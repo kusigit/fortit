@@ -1,4 +1,4 @@
-import moment from 'moment';
+import { format } from 'date-fns';
 // @ts-ignore
 const messages = await import('./client/i18n/messages');
 const debounce = (callback, debounceTime = 300) => {
@@ -19,8 +19,8 @@ const dynMsg = (key) => {
     }
     return message;
 };
-const formatDate = (timestamp) => timestamp ? moment(timestamp).format('DD.MM.YYYY') : '';
-const formatDateTime = (timestamp) => moment(timestamp).format('DD.MM.YYYY HH:mm');
-const getDateString = (timestamp, format = 'YYYY-MM-DD') => timestamp ? moment(timestamp).format(format) : moment().format(format);
+const formatDate = (timestamp) => timestamp ? format(timestamp, 'dd.MM.yyyy') : '';
+const formatDateTime = (timestamp) => timestamp ? format(timestamp, 'dd.MM.yyyy HH:mm') : '';
+const getDateString = (timestamp, formatStr = 'yyyy-MM-dd') => timestamp ? format(timestamp, formatStr) : format(new Date(), formatStr);
 export { debounce, dynMsg, formatDate, formatDateTime, getDateString };
 //# sourceMappingURL=base.js.map
