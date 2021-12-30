@@ -19,7 +19,7 @@ const dynMsg = (key) => {
     }
     return message;
 };
-const formatDate = (timestamp, formatStr = 'dd.MM.yyyy') => timestamp ? format(timestamp, formatStr) : '';
+const formatDate = (timestamp, formatStr = 'dd.MM.yyyy') => (timestamp ? format(timestamp, formatStr) : '');
 const formatDateTime = (timestamp, formatStr = 'dd.MM.yyyy HH:mm') => (timestamp ? format(timestamp, formatStr) : '');
 export { debounce, dynMsg, formatDate, formatDateTime };
 //# sourceMappingURL=base.js.map
