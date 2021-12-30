@@ -116,14 +116,9 @@
         "signature": "fff697b90126bd057f5c4607e2b2168c92884843070ae44789fb96f3547b6d69",
         "affectsGlobalScope": true
       },
-      "./base.ts": {
-        "version": "b8136fb3c375c5f721b8ba3e5a3920c3340fe0bdd98fbd3ad1778ebd7503fd87",
+      "./packages/base/base.ts": {
+        "version": "b82196939dd5ea0a6f65ea51472e14207e1acdf3c881a7463b3e488bdf24500d",
         "signature": "bb173df6ff38fd1c3d43b74acaa8d1c73d74a632c6cf36fb14767b06b48df959",
-        "affectsGlobalScope": false
-      },
-      "./index.ts": {
-        "version": "5987289dda517617e8560231ea9f3292a89623aedbac55d2f1dd51ed56098e3c",
-        "signature": "87a91576aff32c4ea1dc006be450fd947db389fed52c304dbc0b4ac616cd20b6",
         "affectsGlobalScope": false
       },
       "./node_modules/@lit/reactive-element/css-tag.d.ts": {
@@ -196,15 +191,10 @@
         "signature": "d3890804856d6e2c7fdb024fb5eb1f59c4663545327894dba8f7429723fc5f71",
         "affectsGlobalScope": false
       },
-      "./fwc-card/fwc-card.ts": {
-        "version": "fe7c8e9ae103c23f0fae944e6858bb0018c65fe3c227f6ac58cc7659f4915c8b",
-        "signature": "fa8bc0055f33dcf1ac209c20a15d199c542c5dbbe43270c1a76f3d359eec0a5c",
+      "./packages/card/fwc-card.ts": {
+        "version": "f360ac59d131c6489b096f725ae48099f8dd8a7205fec225a32d323bfc5af789",
+        "signature": "9dddc5cb94fe02a513a5136ac4fcd7e5d224e0435b8ee6a0c57701bfa22451cd",
         "affectsGlobalScope": true
-      },
-      "./fwc-card/index.ts": {
-        "version": "3b92296d30f28392e00287205fa03aab3fc710a3a347078c132d58a5f327c583",
-        "signature": "d788e761cc71982d46e706a6a17fd13a5f3374cbfc00e40ef01b767d45ede0b1",
-        "affectsGlobalScope": false
       },
       "./node_modules/@lit/localize/internal/str-tag.d.ts": {
         "version": "08bae564269612dc1909bdf7f747766c235b85641f6d156bccc9ee9876fb2435",
@@ -246,25 +236,10 @@
         "signature": "b48bf76c500cfcff3a39db7c8b649a7800eeacceb2a97e46a22abae3f1dc4de6",
         "affectsGlobalScope": false
       },
-      "./fwc-chip/fwc-chip.ts": {
-        "version": "f2644285bc8757ef59ea64c5360edb336fc46fbcfe0c401901b71e3f7f9288ed",
-        "signature": "fbd11b5874cd60334402d0618c36f6acad8a856b918a610fb2e16024922f988f",
+      "./node_modules/@material/mwc-icon/mwc-icon.d.ts": {
+        "version": "27b285e901600242883d62a5fff9f5d262c6fa128b6e6c6963f981f2630a957e",
+        "signature": "27b285e901600242883d62a5fff9f5d262c6fa128b6e6c6963f981f2630a957e",
         "affectsGlobalScope": true
-      },
-      "./fwc-chip/index.ts": {
-        "version": "cd824b595e92e60830ad7516184ac92beb24acc0713fdd7bd0ec0bd4e8cb6ff8",
-        "signature": "b39b544ba50b887326b0c597c56ae91ebdd54b0d36104ff80e81ef1fca5158d7",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@lit/reactive-element/decorators/query.d.ts": {
-        "version": "a25d1e52291791819032826af5c52987e16ffdb96e8bb69f7f1790f5ab080be6",
-        "signature": "a25d1e52291791819032826af5c52987e16ffdb96e8bb69f7f1790f5ab080be6",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/lit/decorators/query.d.ts": {
-        "version": "9d9969e43edfad39113865e6a903c4cd5de954d95d7defdc8a6bf8fcc2179026",
-        "signature": "9d9969e43edfad39113865e6a903c4cd5de954d95d7defdc8a6bf8fcc2179026",
-        "affectsGlobalScope": false
       },
       "./node_modules/@material/base/foundation.d.ts": {
         "version": "a0667520a6521c12128fc28cbd5b2af58eef11c5b2a7441e0f0d47f50bf6c8e3",
@@ -321,9 +296,49 @@
         "signature": "87e9ab1e4466fb88c90b179130baaab80d91dd1644de2eb6512c79b24ec11216",
         "affectsGlobalScope": true
       },
+      "./node_modules/@material/mwc-base/aria-property.d.ts": {
+        "version": "024fea9ee598cfe747f18340ad74e4ea428fc2a7988250ff9fcfce5673b7d422",
+        "signature": "024fea9ee598cfe747f18340ad74e4ea428fc2a7988250ff9fcfce5673b7d422",
+        "affectsGlobalScope": false
+      },
       "./node_modules/@material/mwc-ripple/ripple-handlers.d.ts": {
         "version": "95ff8a2ebfc0b8b9613faf8d9c948dcc6bf8d5c0052a2d4ae21cacf6cdd28cb9",
         "signature": "95ff8a2ebfc0b8b9613faf8d9c948dcc6bf8d5c0052a2d4ae21cacf6cdd28cb9",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@material/mwc-icon-button/mwc-icon-button-base.d.ts": {
+        "version": "b28d45120b9dd263bb8575646bc1bce9b89c714487fa7003acb06545b859cf35",
+        "signature": "b28d45120b9dd263bb8575646bc1bce9b89c714487fa7003acb06545b859cf35",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@material/mwc-icon-button/mwc-icon-button.d.ts": {
+        "version": "4ac91fa95beb493421723c097d1fa76516e60bd04c5beca11ad8af627a12b74e",
+        "signature": "4ac91fa95beb493421723c097d1fa76516e60bd04c5beca11ad8af627a12b74e",
+        "affectsGlobalScope": true
+      },
+      "./packages/chip/fwc-chip.ts": {
+        "version": "a2e0d8cac1cfb37f87b00643c1b4b6aa5b2fa4d73bb8feeeadb7fe4a2c9c0db5",
+        "signature": "a17a2c6c652b906b6e72f3b7e7ca5ce662b6b9db38b800c70f2985c02b635331",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@lit/reactive-element/decorators/query.d.ts": {
+        "version": "a25d1e52291791819032826af5c52987e16ffdb96e8bb69f7f1790f5ab080be6",
+        "signature": "a25d1e52291791819032826af5c52987e16ffdb96e8bb69f7f1790f5ab080be6",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/lit/decorators/query.d.ts": {
+        "version": "9d9969e43edfad39113865e6a903c4cd5de954d95d7defdc8a6bf8fcc2179026",
+        "signature": "9d9969e43edfad39113865e6a903c4cd5de954d95d7defdc8a6bf8fcc2179026",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@lit/reactive-element/decorators/state.d.ts": {
+        "version": "fb0107c83e2e0e75b77dacd0c3c6c3ab6844e98dce2a8f858c6f0a57c12136a6",
+        "signature": "fb0107c83e2e0e75b77dacd0c3c6c3ab6844e98dce2a8f858c6f0a57c12136a6",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/lit/decorators/state.d.ts": {
+        "version": "76d543256b0e5bf935967f6069c907fd5d1bb7847846bf0dd7708363bc331ee4",
+        "signature": "76d543256b0e5bf935967f6069c907fd5d1bb7847846bf0dd7708363bc331ee4",
         "affectsGlobalScope": false
       },
       "./node_modules/@material/mwc-list/mwc-list-item-base.d.ts": {
@@ -416,65 +431,20 @@
         "signature": "cfd0e28621fc6be2c70882d7e13c3919275c472f2765c32243b918a01ae3f63f",
         "affectsGlobalScope": true
       },
-      "./node_modules/@lit/reactive-element/decorators/state.d.ts": {
-        "version": "fb0107c83e2e0e75b77dacd0c3c6c3ab6844e98dce2a8f858c6f0a57c12136a6",
-        "signature": "fb0107c83e2e0e75b77dacd0c3c6c3ab6844e98dce2a8f858c6f0a57c12136a6",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/lit/decorators/state.d.ts": {
-        "version": "76d543256b0e5bf935967f6069c907fd5d1bb7847846bf0dd7708363bc331ee4",
-        "signature": "76d543256b0e5bf935967f6069c907fd5d1bb7847846bf0dd7708363bc331ee4",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@material/mwc-icon/mwc-icon.d.ts": {
-        "version": "27b285e901600242883d62a5fff9f5d262c6fa128b6e6c6963f981f2630a957e",
-        "signature": "27b285e901600242883d62a5fff9f5d262c6fa128b6e6c6963f981f2630a957e",
+      "./packages/chip-list/fwc-chip-list.ts": {
+        "version": "e0150552c87db91b655c49994be270bc48e4a91dea4926caec6adfeb9f943011",
+        "signature": "052ce741530ce77819e267cd35de38b8b400ffcc90eeb8063998771be1c27425",
         "affectsGlobalScope": true
       },
-      "./node_modules/@material/mwc-base/aria-property.d.ts": {
-        "version": "024fea9ee598cfe747f18340ad74e4ea428fc2a7988250ff9fcfce5673b7d422",
-        "signature": "024fea9ee598cfe747f18340ad74e4ea428fc2a7988250ff9fcfce5673b7d422",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@material/mwc-icon-button/mwc-icon-button-base.d.ts": {
-        "version": "b28d45120b9dd263bb8575646bc1bce9b89c714487fa7003acb06545b859cf35",
-        "signature": "b28d45120b9dd263bb8575646bc1bce9b89c714487fa7003acb06545b859cf35",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/@material/mwc-icon-button/mwc-icon-button.d.ts": {
-        "version": "4ac91fa95beb493421723c097d1fa76516e60bd04c5beca11ad8af627a12b74e",
-        "signature": "4ac91fa95beb493421723c097d1fa76516e60bd04c5beca11ad8af627a12b74e",
+      "./packages/data-table/fwc-data-table.ts": {
+        "version": "b598017518bbe033905c0cba9b27fad680b169741642b584f0946de62c5fab21",
+        "signature": "d3508c490131da5417518efa4e2ee673eea5d1e0d918e22ed5f9803f5781d9fc",
         "affectsGlobalScope": true
       },
-      "./fwc-chip-list/fwc-chip-list.ts": {
-        "version": "35a05e1ef01b5413843ead9abde1fca7f74b0a19123114318db071b1764e1612",
-        "signature": "a10f95520ba3c09ba5a86a5b042c7d8c6d9539dc014829ebf506f9665e9e676d",
+      "./packages/main/fwc-main.ts": {
+        "version": "12f71d1878eb9604f3f207da0f4f1ffa13fd9cdd3a0df3c8dc3ce1a358de6a26",
+        "signature": "102a950a0f859b0562288bce318089da8e8891b555837e220de5f8f46460df3b",
         "affectsGlobalScope": true
-      },
-      "./fwc-chip-list/index.ts": {
-        "version": "d36b9f544cf1d07522d87c652d0a17f08205a04783d5b92a1b60e7e17bf47ae1",
-        "signature": "6e3046ea39b03008b7873ee1b386eb51bfc786dcfaaa90e4dee813d0a17b09c3",
-        "affectsGlobalScope": false
-      },
-      "./fwc-data-table/fwc-data-table.ts": {
-        "version": "21d016eec18b89015d52f0016df9acf62863d2febd3b0221d5caff83484ce8e8",
-        "signature": "3fee3f24e1605c84f1ed48d7a0d729df3c02c0a6eeb19d964f3848acf4de222c",
-        "affectsGlobalScope": true
-      },
-      "./fwc-data-table/index.ts": {
-        "version": "5a89fe92ca9e29866ba886b2a5698deae8c3f25b8b1bc3ed09c387952ad8134e",
-        "signature": "5a89fe92ca9e29866ba886b2a5698deae8c3f25b8b1bc3ed09c387952ad8134e",
-        "affectsGlobalScope": false
-      },
-      "./fwc-main/fwc-main.ts": {
-        "version": "3d6cfbad597a060cf10c6b143b1ef0c4cbd78ff9391e84bc5aa9a6a7a70e40aa",
-        "signature": "91602f9ae9bf58210ea58786e878c0c2c6678377b1b744527fba7cffbe8c2102",
-        "affectsGlobalScope": true
-      },
-      "./fwc-main/index.ts": {
-        "version": "d0220abc996b15e7c33777475e0dc18f065359226fb53d23b48cf3f9ebed9126",
-        "signature": "d0220abc996b15e7c33777475e0dc18f065359226fb53d23b48cf3f9ebed9126",
-        "affectsGlobalScope": false
       },
       "./node_modules/@types/common-tags/index.d.ts": {
         "version": "c5590caef278ad8ba2532ec93e29a32ac354dfb333277348acce18512891d3b2",
@@ -519,9 +489,9 @@
       "strict": true,
       "noImplicitAny": false,
       "outDir": "./",
-      "baseUrl": "./",
+      "baseUrl": "./packages",
       "paths": {
-        "@material/fwc-*": [
+        "@fortit/fwc-*": [
           "./*"
         ]
       },
@@ -559,88 +529,6 @@
       "configFilePath": "./tsconfig.json"
     },
     "referencedMap": {
-      "./base.ts": [
-        "./node_modules/date-fns/typings.d.ts",
-        "./node_modules/tslib/tslib.d.ts"
-      ],
-      "./fwc-card/fwc-card.ts": [
-        "./node_modules/date-fns/typings.d.ts",
-        "./node_modules/lit/decorators/custom-element.d.ts",
-        "./node_modules/lit/decorators/property.d.ts",
-        "./node_modules/lit/index.d.ts",
-        "./node_modules/tslib/tslib.d.ts"
-      ],
-      "./fwc-card/index.ts": [
-        "./fwc-card/fwc-card.ts",
-        "./node_modules/date-fns/typings.d.ts",
-        "./node_modules/tslib/tslib.d.ts"
-      ],
-      "./fwc-chip-list/fwc-chip-list.ts": [
-        "./node_modules/@lit/localize/lit-localize.d.ts",
-        "./node_modules/@material/mwc-icon-button/mwc-icon-button.d.ts",
-        "./node_modules/@material/mwc-icon/mwc-icon.d.ts",
-        "./node_modules/@material/mwc-list/mwc-list-item.d.ts",
-        "./node_modules/@material/mwc-menu/mwc-menu.d.ts",
-        "./node_modules/date-fns/typings.d.ts",
-        "./node_modules/lit/decorators/custom-element.d.ts",
-        "./node_modules/lit/decorators/property.d.ts",
-        "./node_modules/lit/decorators/query.d.ts",
-        "./node_modules/lit/decorators/state.d.ts",
-        "./node_modules/lit/index.d.ts",
-        "./node_modules/tslib/tslib.d.ts"
-      ],
-      "./fwc-chip-list/index.ts": [
-        "./fwc-chip-list/fwc-chip-list.ts",
-        "./node_modules/date-fns/typings.d.ts",
-        "./node_modules/tslib/tslib.d.ts"
-      ],
-      "./fwc-chip/fwc-chip.ts": [
-        "./node_modules/@lit/localize/lit-localize.d.ts",
-        "./node_modules/date-fns/typings.d.ts",
-        "./node_modules/lit/decorators/custom-element.d.ts",
-        "./node_modules/lit/decorators/property.d.ts",
-        "./node_modules/lit/index.d.ts",
-        "./node_modules/tslib/tslib.d.ts"
-      ],
-      "./fwc-chip/index.ts": [
-        "./fwc-chip/fwc-chip.ts",
-        "./node_modules/date-fns/typings.d.ts",
-        "./node_modules/tslib/tslib.d.ts"
-      ],
-      "./fwc-data-table/fwc-data-table.ts": [
-        "./base.ts",
-        "./node_modules/@lit/localize/lit-localize.d.ts",
-        "./node_modules/date-fns/typings.d.ts",
-        "./node_modules/lit/decorators/custom-element.d.ts",
-        "./node_modules/lit/decorators/property.d.ts",
-        "./node_modules/lit/decorators/state.d.ts",
-        "./node_modules/lit/index.d.ts",
-        "./node_modules/tslib/tslib.d.ts"
-      ],
-      "./fwc-data-table/index.ts": [
-        "./fwc-data-table/fwc-data-table.ts",
-        "./node_modules/date-fns/typings.d.ts",
-        "./node_modules/tslib/tslib.d.ts"
-      ],
-      "./fwc-main/fwc-main.ts": [
-        "./node_modules/@lit/localize/lit-localize.d.ts",
-        "./node_modules/@material/mwc-icon-button/mwc-icon-button.d.ts",
-        "./node_modules/date-fns/typings.d.ts",
-        "./node_modules/lit/decorators/custom-element.d.ts",
-        "./node_modules/lit/decorators/property.d.ts",
-        "./node_modules/lit/index.d.ts",
-        "./node_modules/tslib/tslib.d.ts"
-      ],
-      "./fwc-main/index.ts": [
-        "./fwc-main/fwc-main.ts",
-        "./node_modules/date-fns/typings.d.ts",
-        "./node_modules/tslib/tslib.d.ts"
-      ],
-      "./index.ts": [
-        "./base.ts",
-        "./node_modules/date-fns/typings.d.ts",
-        "./node_modules/tslib/tslib.d.ts"
-      ],
       "./node_modules/@lit/localize/init/runtime.d.ts": [
         "./node_modules/@lit/localize/internal/types.d.ts",
         "./node_modules/date-fns/typings.d.ts"
@@ -952,6 +840,60 @@
       "./node_modules/tslib/tslib.d.ts": [
         "./node_modules/date-fns/typings.d.ts"
       ],
+      "./packages/base/base.ts": [
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/tslib/tslib.d.ts"
+      ],
+      "./packages/card/fwc-card.ts": [
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/lit/decorators/custom-element.d.ts",
+        "./node_modules/lit/decorators/property.d.ts",
+        "./node_modules/lit/index.d.ts",
+        "./node_modules/tslib/tslib.d.ts"
+      ],
+      "./packages/chip-list/fwc-chip-list.ts": [
+        "./node_modules/@lit/localize/lit-localize.d.ts",
+        "./node_modules/@material/mwc-list/mwc-list-item.d.ts",
+        "./node_modules/@material/mwc-menu/mwc-menu.d.ts",
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/lit/decorators/custom-element.d.ts",
+        "./node_modules/lit/decorators/property.d.ts",
+        "./node_modules/lit/decorators/query.d.ts",
+        "./node_modules/lit/decorators/state.d.ts",
+        "./node_modules/lit/index.d.ts",
+        "./node_modules/tslib/tslib.d.ts",
+        "./packages/chip/fwc-chip.ts"
+      ],
+      "./packages/chip/fwc-chip.ts": [
+        "./node_modules/@lit/localize/lit-localize.d.ts",
+        "./node_modules/@material/mwc-icon-button/mwc-icon-button.d.ts",
+        "./node_modules/@material/mwc-icon/mwc-icon.d.ts",
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/lit/decorators/custom-element.d.ts",
+        "./node_modules/lit/decorators/property.d.ts",
+        "./node_modules/lit/index.d.ts",
+        "./node_modules/tslib/tslib.d.ts"
+      ],
+      "./packages/data-table/fwc-data-table.ts": [
+        "./node_modules/@lit/localize/lit-localize.d.ts",
+        "./node_modules/@material/mwc-icon-button/mwc-icon-button.d.ts",
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/lit/decorators/custom-element.d.ts",
+        "./node_modules/lit/decorators/property.d.ts",
+        "./node_modules/lit/decorators/state.d.ts",
+        "./node_modules/lit/index.d.ts",
+        "./node_modules/tslib/tslib.d.ts",
+        "./packages/base/base.ts"
+      ],
+      "./packages/main/fwc-main.ts": [
+        "./node_modules/@lit/localize/lit-localize.d.ts",
+        "./node_modules/@material/mwc-icon-button/mwc-icon-button.d.ts",
+        "./node_modules/date-fns/typings.d.ts",
+        "./node_modules/lit/decorators/custom-element.d.ts",
+        "./node_modules/lit/decorators/property.d.ts",
+        "./node_modules/lit/index.d.ts",
+        "./node_modules/tslib/tslib.d.ts"
+      ],
       "../../../../usr/local/lib/node_modules/typescript/lib/lib.dom.d.ts": [
         "./node_modules/date-fns/typings.d.ts"
       ],
@@ -1017,59 +959,32 @@
       ]
     },
     "exportedModulesMap": {
-      "./fwc-card/fwc-card.ts": [
-        "./node_modules/lit/index.d.ts"
-      ],
-      "./fwc-card/index.ts": [
-        "./fwc-card/fwc-card.ts"
-      ],
-      "./fwc-chip-list/fwc-chip-list.ts": [
-        "./node_modules/@material/mwc-icon-button/mwc-icon-button.d.ts",
-        "./node_modules/@material/mwc-icon/mwc-icon.d.ts",
-        "./node_modules/@material/mwc-list/mwc-list-item.d.ts",
-        "./node_modules/@material/mwc-menu/mwc-menu.d.ts",
-        "./node_modules/lit/index.d.ts"
-      ],
-      "./fwc-chip-list/index.ts": [
-        "./fwc-chip-list/fwc-chip-list.ts"
-      ],
-      "./fwc-chip/fwc-chip.ts": [
-        "./node_modules/lit/index.d.ts"
-      ],
-      "./fwc-chip/index.ts": [
-        "./fwc-chip/fwc-chip.ts"
-      ],
-      "./fwc-data-table/fwc-data-table.ts": [
-        "./node_modules/lit/index.d.ts"
-      ],
-      "./fwc-data-table/index.ts": [
-        "./fwc-data-table/fwc-data-table.ts"
-      ],
-      "./fwc-main/fwc-main.ts": [
-        "./node_modules/@material/mwc-icon-button/mwc-icon-button.d.ts",
-        "./node_modules/lit/index.d.ts"
-      ],
-      "./fwc-main/index.ts": [
-        "./fwc-main/fwc-main.ts"
-      ],
-      "./index.ts": [
-        "./base.ts"
-      ],
       "./node_modules/@lit/localize/init/runtime.d.ts": [
-        "./node_modules/@lit/localize/internal/types.d.ts"
+        "./node_modules/@lit/localize/internal/types.d.ts",
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/@lit/localize/init/transform.d.ts": [
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/@lit/localize/internal/locale-status-event.d.ts": [
+        "./node_modules/date-fns/typings.d.ts"
       ],
       "./node_modules/@lit/localize/internal/localized-controller.d.ts": [
+        "./node_modules/date-fns/typings.d.ts",
         "./node_modules/lit/index.d.ts"
       ],
       "./node_modules/@lit/localize/internal/localized-decorator.d.ts": [
         "./node_modules/@lit/reactive-element/decorators/base.d.ts",
-        "./node_modules/@lit/reactive-element/reactive-element.d.ts"
+        "./node_modules/@lit/reactive-element/reactive-element.d.ts",
+        "./node_modules/date-fns/typings.d.ts"
       ],
       "./node_modules/@lit/localize/internal/str-tag.d.ts": [
-        "./node_modules/@lit/localize/internal/types.d.ts"
+        "./node_modules/@lit/localize/internal/types.d.ts",
+        "./node_modules/date-fns/typings.d.ts"
       ],
       "./node_modules/@lit/localize/internal/types.d.ts": [
         "./node_modules/@lit/localize/internal/str-tag.d.ts",
+        "./node_modules/date-fns/typings.d.ts",
         "./node_modules/lit/index.d.ts"
       ],
       "./node_modules/@lit/localize/lit-localize.d.ts": [
@@ -1079,76 +994,124 @@
         "./node_modules/@lit/localize/internal/localized-controller.d.ts",
         "./node_modules/@lit/localize/internal/localized-decorator.d.ts",
         "./node_modules/@lit/localize/internal/str-tag.d.ts",
-        "./node_modules/@lit/localize/internal/types.d.ts"
+        "./node_modules/@lit/localize/internal/types.d.ts",
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/@lit/reactive-element/css-tag.d.ts": [
+        "./node_modules/date-fns/typings.d.ts"
       ],
       "./node_modules/@lit/reactive-element/decorators/base.d.ts": [
-        "./node_modules/@lit/reactive-element/reactive-element.d.ts"
+        "./node_modules/@lit/reactive-element/reactive-element.d.ts",
+        "./node_modules/date-fns/typings.d.ts"
       ],
       "./node_modules/@lit/reactive-element/decorators/custom-element.d.ts": [
-        "./node_modules/@lit/reactive-element/decorators/base.d.ts"
+        "./node_modules/@lit/reactive-element/decorators/base.d.ts",
+        "./node_modules/date-fns/typings.d.ts"
       ],
       "./node_modules/@lit/reactive-element/decorators/property.d.ts": [
         "./node_modules/@lit/reactive-element/decorators/base.d.ts",
-        "./node_modules/@lit/reactive-element/reactive-element.d.ts"
+        "./node_modules/@lit/reactive-element/reactive-element.d.ts",
+        "./node_modules/date-fns/typings.d.ts"
       ],
       "./node_modules/@lit/reactive-element/decorators/query.d.ts": [
         "./node_modules/@lit/reactive-element/decorators/base.d.ts",
-        "./node_modules/@lit/reactive-element/reactive-element.d.ts"
+        "./node_modules/@lit/reactive-element/reactive-element.d.ts",
+        "./node_modules/date-fns/typings.d.ts"
       ],
       "./node_modules/@lit/reactive-element/decorators/state.d.ts": [
-        "./node_modules/@lit/reactive-element/decorators/base.d.ts"
+        "./node_modules/@lit/reactive-element/decorators/base.d.ts",
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/@lit/reactive-element/reactive-controller.d.ts": [
+        "./node_modules/date-fns/typings.d.ts"
       ],
       "./node_modules/@lit/reactive-element/reactive-element.d.ts": [
         "./node_modules/@lit/reactive-element/css-tag.d.ts",
-        "./node_modules/@lit/reactive-element/reactive-controller.d.ts"
+        "./node_modules/@lit/reactive-element/reactive-controller.d.ts",
+        "./node_modules/date-fns/typings.d.ts"
       ],
       "./node_modules/@material/base/component.d.ts": [
         "./node_modules/@material/base/foundation.d.ts",
-        "./node_modules/@material/base/types.d.ts"
+        "./node_modules/@material/base/types.d.ts",
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/@material/base/foundation.d.ts": [
+        "./node_modules/date-fns/typings.d.ts"
       ],
       "./node_modules/@material/base/index.d.ts": [
         "./node_modules/@material/base/component.d.ts",
         "./node_modules/@material/base/foundation.d.ts",
-        "./node_modules/@material/base/types.d.ts"
+        "./node_modules/@material/base/types.d.ts",
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/@material/base/types.d.ts": [
+        "./node_modules/date-fns/typings.d.ts"
       ],
       "./node_modules/@material/menu-surface/adapter.d.ts": [
-        "./node_modules/@material/menu-surface/types.d.ts"
+        "./node_modules/@material/menu-surface/types.d.ts",
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/@material/menu-surface/constants.d.ts": [
+        "./node_modules/date-fns/typings.d.ts"
       ],
       "./node_modules/@material/menu-surface/foundation.d.ts": [
         "./node_modules/@material/base/foundation.d.ts",
         "./node_modules/@material/menu-surface/adapter.d.ts",
         "./node_modules/@material/menu-surface/constants.d.ts",
-        "./node_modules/@material/menu-surface/types.d.ts"
+        "./node_modules/@material/menu-surface/types.d.ts",
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/@material/menu-surface/types.d.ts": [
+        "./node_modules/date-fns/typings.d.ts"
       ],
       "./node_modules/@material/menu/adapter.d.ts": [
-        "./node_modules/@material/menu/types.d.ts"
+        "./node_modules/@material/menu/types.d.ts",
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/@material/menu/constants.d.ts": [
+        "./node_modules/date-fns/typings.d.ts"
       ],
       "./node_modules/@material/menu/foundation.d.ts": [
         "./node_modules/@material/base/foundation.d.ts",
         "./node_modules/@material/menu/adapter.d.ts",
-        "./node_modules/@material/menu/constants.d.ts"
+        "./node_modules/@material/menu/constants.d.ts",
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/@material/menu/types.d.ts": [
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/@material/mwc-base/aria-property.d.ts": [
+        "./node_modules/date-fns/typings.d.ts"
       ],
       "./node_modules/@material/mwc-base/base-element.d.ts": [
         "./node_modules/@material/base/index.d.ts",
         "./node_modules/@material/base/types.d.ts",
         "./node_modules/@material/mwc-base/utils.d.ts",
+        "./node_modules/date-fns/typings.d.ts",
         "./node_modules/lit/index.d.ts"
+      ],
+      "./node_modules/@material/mwc-base/utils.d.ts": [
+        "./node_modules/date-fns/typings.d.ts"
       ],
       "./node_modules/@material/mwc-icon-button/mwc-icon-button-base.d.ts": [
         "./node_modules/@material/mwc-base/aria-property.d.ts",
         "./node_modules/@material/mwc-ripple/mwc-ripple.d.ts",
         "./node_modules/@material/mwc-ripple/ripple-handlers.d.ts",
+        "./node_modules/date-fns/typings.d.ts",
         "./node_modules/lit/index.d.ts"
       ],
       "./node_modules/@material/mwc-icon-button/mwc-icon-button.d.ts": [
         "./node_modules/@material/mwc-icon-button/mwc-icon-button-base.d.ts",
+        "./node_modules/date-fns/typings.d.ts",
         "./node_modules/lit/index.d.ts"
       ],
       "./node_modules/@material/mwc-icon/mwc-icon.d.ts": [
+        "./node_modules/date-fns/typings.d.ts",
         "./node_modules/lit/index.d.ts"
       ],
       "./node_modules/@material/mwc-list/mwc-list-adapter.d.ts": [
-        "./node_modules/@material/mwc-list/mwc-list-foundation.d.ts"
+        "./node_modules/@material/mwc-list/mwc-list-foundation.d.ts",
+        "./node_modules/date-fns/typings.d.ts"
       ],
       "./node_modules/@material/mwc-list/mwc-list-base.d.ts": [
         "./node_modules/@material/mwc-base/base-element.d.ts",
@@ -1156,25 +1119,30 @@
         "./node_modules/@material/mwc-list/mwc-list-foundation.d.ts",
         "./node_modules/@material/mwc-list/mwc-list-item-base.d.ts",
         "./node_modules/@material/mwc-list/mwc-list-item.d.ts",
+        "./node_modules/date-fns/typings.d.ts",
         "./node_modules/lit-html/lit-html.d.ts"
       ],
       "./node_modules/@material/mwc-list/mwc-list-foundation.d.ts": [
         "./node_modules/@material/base/foundation.d.ts",
-        "./node_modules/@material/mwc-list/mwc-list-adapter.d.ts"
+        "./node_modules/@material/mwc-list/mwc-list-adapter.d.ts",
+        "./node_modules/date-fns/typings.d.ts"
       ],
       "./node_modules/@material/mwc-list/mwc-list-item-base.d.ts": [
         "./node_modules/@material/mwc-ripple/mwc-ripple.d.ts",
         "./node_modules/@material/mwc-ripple/ripple-handlers.d.ts",
+        "./node_modules/date-fns/typings.d.ts",
         "./node_modules/lit-html/lit-html.d.ts",
         "./node_modules/lit/index.d.ts"
       ],
       "./node_modules/@material/mwc-list/mwc-list-item.d.ts": [
         "./node_modules/@material/mwc-list/mwc-list-item-base.d.ts",
+        "./node_modules/date-fns/typings.d.ts",
         "./node_modules/lit/index.d.ts"
       ],
       "./node_modules/@material/mwc-list/mwc-list.d.ts": [
         "./node_modules/@material/mwc-list/mwc-list-base.d.ts",
         "./node_modules/@material/mwc-list/mwc-list-foundation.d.ts",
+        "./node_modules/date-fns/typings.d.ts",
         "./node_modules/lit/index.d.ts"
       ],
       "./node_modules/@material/mwc-menu/mwc-menu-base.d.ts": [
@@ -1187,6 +1155,7 @@
         "./node_modules/@material/mwc-list/mwc-list.d.ts",
         "./node_modules/@material/mwc-menu/mwc-menu-surface-base.d.ts",
         "./node_modules/@material/mwc-menu/mwc-menu-surface.d.ts",
+        "./node_modules/date-fns/typings.d.ts",
         "./node_modules/lit-html/lit-html.d.ts"
       ],
       "./node_modules/@material/mwc-menu/mwc-menu-surface-base.d.ts": [
@@ -1194,17 +1163,20 @@
         "./node_modules/@material/menu-surface/constants.d.ts",
         "./node_modules/@material/menu-surface/foundation.d.ts",
         "./node_modules/@material/mwc-base/base-element.d.ts",
+        "./node_modules/date-fns/typings.d.ts",
         "./node_modules/lit-html/lit-html.d.ts"
       ],
       "./node_modules/@material/mwc-menu/mwc-menu-surface.d.ts": [
         "./node_modules/@material/menu-surface/types.d.ts",
         "./node_modules/@material/mwc-menu/mwc-menu-surface-base.d.ts",
+        "./node_modules/date-fns/typings.d.ts",
         "./node_modules/lit/index.d.ts"
       ],
       "./node_modules/@material/mwc-menu/mwc-menu.d.ts": [
         "./node_modules/@material/mwc-list/mwc-list-foundation.d.ts",
         "./node_modules/@material/mwc-menu/mwc-menu-base.d.ts",
         "./node_modules/@material/mwc-menu/mwc-menu-surface-base.d.ts",
+        "./node_modules/date-fns/typings.d.ts",
         "./node_modules/lit/index.d.ts"
       ],
       "./node_modules/@material/mwc-ripple/mwc-ripple-base.d.ts": [
@@ -1212,71 +1184,179 @@
         "./node_modules/@material/mwc-base/utils.d.ts",
         "./node_modules/@material/ripple/adapter.d.ts",
         "./node_modules/@material/ripple/foundation.d.ts",
+        "./node_modules/date-fns/typings.d.ts",
         "./node_modules/lit/index.d.ts"
       ],
       "./node_modules/@material/mwc-ripple/mwc-ripple.d.ts": [
         "./node_modules/@material/mwc-ripple/mwc-ripple-base.d.ts",
+        "./node_modules/date-fns/typings.d.ts",
         "./node_modules/lit/index.d.ts"
       ],
       "./node_modules/@material/mwc-ripple/ripple-handlers.d.ts": [
-        "./node_modules/@material/mwc-base/utils.d.ts"
+        "./node_modules/@material/mwc-base/utils.d.ts",
+        "./node_modules/date-fns/typings.d.ts"
       ],
       "./node_modules/@material/ripple/adapter.d.ts": [
         "./node_modules/@material/base/types.d.ts",
-        "./node_modules/@material/ripple/types.d.ts"
+        "./node_modules/@material/ripple/types.d.ts",
+        "./node_modules/date-fns/typings.d.ts"
       ],
       "./node_modules/@material/ripple/foundation.d.ts": [
         "./node_modules/@material/base/foundation.d.ts",
-        "./node_modules/@material/ripple/adapter.d.ts"
+        "./node_modules/@material/ripple/adapter.d.ts",
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/@material/ripple/types.d.ts": [
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/@types/common-tags/index.d.ts": [
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/@types/json-schema/index.d.ts": [
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/@types/json5/index.d.ts": [
+        "./node_modules/date-fns/typings.d.ts"
       ],
       "./node_modules/@types/trusted-types/index.d.ts": [
-        "./node_modules/@types/trusted-types/lib/index.d.ts"
+        "./node_modules/@types/trusted-types/lib/index.d.ts",
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/@types/trusted-types/lib/index.d.ts": [
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./node_modules/@types/uuid/index.d.ts": [
+        "./node_modules/date-fns/typings.d.ts"
       ],
       "./node_modules/date-fns/typings.d.ts": [
         "./node_modules/date-fns/typings.d.ts"
       ],
       "./node_modules/lit-element/lit-element.d.ts": [
         "./node_modules/@lit/reactive-element/reactive-element.d.ts",
+        "./node_modules/date-fns/typings.d.ts",
         "./node_modules/lit-html/lit-html.d.ts"
       ],
       "./node_modules/lit-html/directive.d.ts": [
+        "./node_modules/date-fns/typings.d.ts",
         "./node_modules/lit-html/lit-html.d.ts"
       ],
       "./node_modules/lit-html/lit-html.d.ts": [
         "./node_modules/@types/trusted-types/index.d.ts",
+        "./node_modules/date-fns/typings.d.ts",
         "./node_modules/lit-html/directive.d.ts"
       ],
       "./node_modules/lit/decorators/custom-element.d.ts": [
-        "./node_modules/@lit/reactive-element/decorators/custom-element.d.ts"
+        "./node_modules/@lit/reactive-element/decorators/custom-element.d.ts",
+        "./node_modules/date-fns/typings.d.ts"
       ],
       "./node_modules/lit/decorators/property.d.ts": [
-        "./node_modules/@lit/reactive-element/decorators/property.d.ts"
+        "./node_modules/@lit/reactive-element/decorators/property.d.ts",
+        "./node_modules/date-fns/typings.d.ts"
       ],
       "./node_modules/lit/decorators/query.d.ts": [
-        "./node_modules/@lit/reactive-element/decorators/query.d.ts"
+        "./node_modules/@lit/reactive-element/decorators/query.d.ts",
+        "./node_modules/date-fns/typings.d.ts"
       ],
       "./node_modules/lit/decorators/state.d.ts": [
-        "./node_modules/@lit/reactive-element/decorators/state.d.ts"
+        "./node_modules/@lit/reactive-element/decorators/state.d.ts",
+        "./node_modules/date-fns/typings.d.ts"
       ],
       "./node_modules/lit/index.d.ts": [
         "./node_modules/@lit/reactive-element/reactive-element.d.ts",
+        "./node_modules/date-fns/typings.d.ts",
         "./node_modules/lit-element/lit-element.d.ts",
         "./node_modules/lit-html/lit-html.d.ts"
+      ],
+      "./node_modules/tslib/tslib.d.ts": [
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "./packages/card/fwc-card.ts": [
+        "./node_modules/lit/index.d.ts"
+      ],
+      "./packages/chip-list/fwc-chip-list.ts": [
+        "./node_modules/@material/mwc-list/mwc-list-item.d.ts",
+        "./node_modules/@material/mwc-menu/mwc-menu.d.ts",
+        "./node_modules/lit/index.d.ts",
+        "./packages/chip/fwc-chip.ts"
+      ],
+      "./packages/chip/fwc-chip.ts": [
+        "./node_modules/@material/mwc-icon-button/mwc-icon-button.d.ts",
+        "./node_modules/@material/mwc-icon/mwc-icon.d.ts",
+        "./node_modules/lit/index.d.ts"
+      ],
+      "./packages/data-table/fwc-data-table.ts": [
+        "./node_modules/@material/mwc-icon-button/mwc-icon-button.d.ts",
+        "./node_modules/lit/index.d.ts"
+      ],
+      "./packages/main/fwc-main.ts": [
+        "./node_modules/@material/mwc-icon-button/mwc-icon-button.d.ts",
+        "./node_modules/lit/index.d.ts"
+      ],
+      "../../../../usr/local/lib/node_modules/typescript/lib/lib.dom.d.ts": [
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "../../../../usr/local/lib/node_modules/typescript/lib/lib.dom.iterable.d.ts": [
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "../../../../usr/local/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts": [
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "../../../../usr/local/lib/node_modules/typescript/lib/lib.es2015.core.d.ts": [
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "../../../../usr/local/lib/node_modules/typescript/lib/lib.es2015.d.ts": [
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "../../../../usr/local/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts": [
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "../../../../usr/local/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts": [
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "../../../../usr/local/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts": [
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "../../../../usr/local/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts": [
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "../../../../usr/local/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts": [
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "../../../../usr/local/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts": [
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "../../../../usr/local/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts": [
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "../../../../usr/local/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts": [
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "../../../../usr/local/lib/node_modules/typescript/lib/lib.es2016.d.ts": [
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "../../../../usr/local/lib/node_modules/typescript/lib/lib.es2017.d.ts": [
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "../../../../usr/local/lib/node_modules/typescript/lib/lib.es2017.intl.d.ts": [
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "../../../../usr/local/lib/node_modules/typescript/lib/lib.es2017.object.d.ts": [
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "../../../../usr/local/lib/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts": [
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "../../../../usr/local/lib/node_modules/typescript/lib/lib.es2017.string.d.ts": [
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "../../../../usr/local/lib/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts": [
+        "./node_modules/date-fns/typings.d.ts"
+      ],
+      "../../../../usr/local/lib/node_modules/typescript/lib/lib.es5.d.ts": [
+        "./node_modules/date-fns/typings.d.ts"
       ]
     },
     "semanticDiagnosticsPerFile": [
-      "./base.ts",
-      "./fwc-card/fwc-card.ts",
-      "./fwc-card/index.ts",
-      "./fwc-chip-list/fwc-chip-list.ts",
-      "./fwc-chip-list/index.ts",
-      "./fwc-chip/fwc-chip.ts",
-      "./fwc-chip/index.ts",
-      "./fwc-data-table/fwc-data-table.ts",
-      "./fwc-data-table/index.ts",
-      "./fwc-main/fwc-main.ts",
-      "./fwc-main/index.ts",
-      "./index.ts",
       "./node_modules/@lit/localize/init/runtime.d.ts",
       "./node_modules/@lit/localize/init/transform.d.ts",
       "./node_modules/@lit/localize/internal/locale-status-event.d.ts",
@@ -1343,6 +1423,12 @@
       "./node_modules/lit/decorators/state.d.ts",
       "./node_modules/lit/index.d.ts",
       "./node_modules/tslib/tslib.d.ts",
+      "./packages/base/base.ts",
+      "./packages/card/fwc-card.ts",
+      "./packages/chip-list/fwc-chip-list.ts",
+      "./packages/chip/fwc-chip.ts",
+      "./packages/data-table/fwc-data-table.ts",
+      "./packages/main/fwc-main.ts",
       "../../../../usr/local/lib/node_modules/typescript/lib/lib.dom.d.ts",
       "../../../../usr/local/lib/node_modules/typescript/lib/lib.dom.iterable.d.ts",
       "../../../../usr/local/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts",

@@ -17,9 +17,9 @@
     "strict": true,
     "noImplicitAny": false,
     "outDir": "./",
-    "baseUrl": ".",
+    "baseUrl": "./packages",
     "paths": {
-      "@material/fwc-*": ["./*"]
+      "@fortit/fwc-*": ["./*"]
     },
     "composite": true,
     "importHelpers": true,
@@ -44,7 +44,6 @@
           "no-invalid-attribute-name": "error",
           "no-invalid-tag-name": "error",
           "no-property-visibility-mismatch": "error",
-
           "no-unknown-attribute": "off",
           "no-unknown-event": "off",
           "no-unknown-slot": "off",
@@ -54,5 +53,13 @@
     ]
   },
   "include": ["**/*.ts", "*.ts"],
-  "exclude": []
+  "exclude": [],
+  "references": [
+    { "path": "packages/base" },
+    { "path": "packages/card" },
+    { "path": "packages/chip" },
+    { "path": "packages/chip-list" },
+    { "path": "packages/data-table" },
+    { "path": "packages/main" },
+  ]
 }

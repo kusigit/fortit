@@ -4,12 +4,12 @@
   "description": "Fort-IT web components",
   "dependencies": {
     "@lit/localize": "0.11.1",
-    "date-fns": "2.28.0",
-    "lit": "2.0.2",
     "@material/mwc-icon": "0.25.3",
     "@material/mwc-icon-button": "0.25.3",
     "@material/mwc-list": "0.25.3",
-    "@material/mwc-menu": "0.25.3"
+    "@material/mwc-menu": "0.25.3",
+    "date-fns": "2.28.0",
+    "lit": "2.0.2"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "5.3.1",
@@ -21,11 +21,25 @@
     "eslint-plugin-jsx-a11y": "6.5.1",
     "eslint-plugin-lit": "1.6.1",
     "eslint-plugin-wc": "1.3.2",
+    "eslint-plugin-unused-imports": "2.0.0",
     "lit-analyzer": "1.2.1",
     "typescript": "4.5.4"
   },
   "scripts": {
-    "lint": "eslint . --ext .ts && lit-analyzer fwc-card/*",
+    "build": "npm run build:typescript -- --verbose",
+    "build:typescript": "tsc --build",
+    "lint": "npm run lint:lit",
+    "lint:typescript": "eslint \"packages/**/*.ts\"",
+    "lint:lit": "lit-analyzer \"packages/**/*.ts\" --strict",
+    "powerwash:ts": "rm packages/*/.tsbuildinfo",
+    "powerwash": "npm run powerwash:ts",
+    "publish:base": "cd packages/base && npm publish",
+    "publish:card": "cd packages/card && npm publish",
+    "publish:chip": "cd packages/chip && npm publish",
+    "publish:chip-list": "cd packages/chip-list && npm publish",
+    "publish:data-table": "cd packages/data-table && npm publish",
+    "publish:main": "cd packages/main && npm publish",
+    "publish": "npm run build && npm run publish:base && npm run publish:card && npm run publish:chip && npm run publish:chip-list && npm run publish:data-table && npm run publish:main",
     "test": "npm run test:client && npm run test:server"
   },
   "main": "index.js",
