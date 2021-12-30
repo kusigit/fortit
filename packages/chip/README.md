@@ -1,4 +1,10 @@
-# `<fwc-chip>`
+# `<fwc-chip>` [![Published on npm](https://img.shields.io/npm/v/@fortit/fwc-chip.svg)](https://www.npmjs.com/package/@fortit/fwc-chip)
+
+## Installation
+
+```sh
+npm i @fortit/fwc-chip
+```
 
 ## Example usage
 
@@ -17,16 +23,26 @@
 ></fwc-chip>
 ```
 
+## API
+
+### Slots
+
+None
+
 ### Properties/Attributes
 
-| Name     | Type      | Default | Description                  |
-| -------- | --------- | ------- | --------------------- |
-| `icon` | `string` | `''` | Icon to display |
-| `text` | `string` | `''` | Text to display |
-| `action` | `boolean` | `false` | Icon button to display |
+| Name     | Type      | Default | Description                      |
+| -------- | --------- | ------- | -------------------------------- |
+| `icon`   | `string`  | `''`    | Icon to display left             |
+| `text`   | `string`  | `''`    | Text to display                  |
+| `action` | `boolean` | `false` | Display delete icon on the right |
+
+### Methods
+
+None
 
 ### Events
 
-| Event Name | Target               | Detail            | Description          |
-| ---------- | -------------------- | ----------------- | -------------------- |
-| `remove`   | `fwc-chip` | none              | Fired icon button click.    |
+| Event Name | Target     | Detail | Description              |
+| ---------- | ---------- | ------ | ------------------------ |
+| `remove`   | `fwc-chip` | none   | Fired icon button click. |

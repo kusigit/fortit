@@ -11,7 +11,7 @@ export declare class DataTable extends LitElement {
     order: {
         [field: string]: string;
     };
-    setData<T>(datas: T[], id?: string): void;
-    sort(field: string): void;
-    setFilter(field?: string, value?: string): void;
+    protected setData<T>(datas: T[]): void;
+    protected sort(field: string): void;
+    protected setFilter(field?: string, value?: string): void;
 }

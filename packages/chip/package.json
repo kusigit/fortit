@@ -1,6 +1,6 @@
 {
   "name": "@fortit/fwc-chip",
-  "version": "0.1.0",
+  "version": "0.1.4",
   "description": "",
   "main": "fwc-chip.js",
   "module": "fwc-chip.js",

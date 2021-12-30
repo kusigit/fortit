@@ -15,10 +15,9 @@ export class DataTable extends LitElement {
             name: 'asc',
         };
     }
-    setData(datas, id = '') {
+    setData(datas) {
         this.datas = datas;
         this.allDatas = datas;
-        this.id = id;
     }
     sort(field) {
         Object.keys(this.order).forEach((f) => {

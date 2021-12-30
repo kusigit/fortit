@@ -8,15 +8,15 @@ npm i @fortit/fwc-card
 
 ## Example usage
 
-### Standard  
+### Standard
 
 ```html
 <script type="module">
-    import '@fortit/fwc-card';
+  import '@fortit/fwc-card';
 </script>
 
 <fwc-card>
-    <div>Some content</div>
+  <div>Some content</div>
 </fwc-card>
 ```
 
@@ -24,17 +24,20 @@ npm i @fortit/fwc-card
 
 ```html
 <script type="module">
-    import '@fortit/fwc-card';
+  import '@fortit/fwc-card';
 </script>
 
 <fwc-card padded>
-    <div>Some content</div>
+  <div>Some content</div>
 </fwc-card>
 ```
 
 ### Properties/Attributes
 
-| Name            | Type      | Description
-| --------------- | --------- |------------
-| `padded`        | `boolean` | Add padding to card content.
+| Name     | Type      | Description                  |
+| -------- | --------- | ---------------------------- |
+| `padded` | `boolean` | Add padding to card content. |
 
+## Additional references
+
+- [Material Design](https://material.io/components/cards)
