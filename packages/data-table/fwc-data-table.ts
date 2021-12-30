@@ -217,12 +217,12 @@ export class DataTable extends LitElement {
     name: 'asc',
   };
 
-  protected setData<T>(datas: T[]): void {
+  setData<T>(datas: T[]): void {
     this.datas = datas;
     this.allDatas = datas;
   }
 
-  protected sort(field: string) {
+  sort(field: string) {
     Object.keys(this.order).forEach((f) => {
       if (f !== field) {
         delete this.order[f];
@@ -244,7 +244,7 @@ export class DataTable extends LitElement {
     this.datas = datas;
   }
 
-  protected setFilter(field = '', value = '') {
+  setFilter(field = '', value = '') {
     if (value === '') {
       delete this.filter[field];
     } else {

@@ -1,6 +1,6 @@
 {
   "name": "fortit-web-components",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Fort-IT web components",
   "dependencies": {
     "@lit/localize": "0.11.1",
