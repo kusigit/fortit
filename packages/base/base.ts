@@ -28,13 +28,12 @@ const dynMsg = (key: string): string => {
   return message;
 };
 
-const formatDate = (timestamp?: number): string =>
-  timestamp ? format(timestamp, 'dd.MM.yyyy') : '';
+const formatDate = (timestamp?: number, formatStr = 'dd.MM.yyyy'): string =>
+  timestamp ? format(timestamp, formatStr) : '';
 
-const formatDateTime = (timestamp: number): string =>
-  timestamp ? format(timestamp, 'dd.MM.yyyy HH:mm') : '';
+const formatDateTime = (
+  timestamp?: number,
+  formatStr = 'dd.MM.yyyy HH:mm'
+): string => (timestamp ? format(timestamp, formatStr) : '');
 
-const getDateString = (timestamp?: number, formatStr = 'yyyy-MM-dd'): string =>
-  timestamp ? format(timestamp, formatStr) : format(new Date(), formatStr);
-
-export { debounce, dynMsg, formatDate, formatDateTime, getDateString };
+export { debounce, dynMsg, formatDate, formatDateTime };
