@@ -1,0 +1,26 @@
+{
+  "name": "@fortit/fwc-chip-list",
+  "version": "0.1.0",
+  "description": "",
+  "main": "fwc-chip-list.js",
+  "module": "fwc-chip-list.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kusigit/fortit.git",
+    "directory": "packages/chip-list"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@lit/localize": "0.11.1",
+    "@material/mwc-icon": "0.25.3",
+    "@material/mwc-icon-button": "0.25.3",
+    "@material/mwc-list": "0.25.3",
+    "@material/mwc-menu": "0.25.3",
+    "lit": "2.0.2",
+    "tslib": "2.3.1"
+  },
+  "devDependencies": {},
+  "publishConfig": {
+    "access": "public"
+  }
+}
