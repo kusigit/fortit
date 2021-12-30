@@ -437,9 +437,9 @@
         "affectsGlobalScope": true
       },
       "./packages/data-table/fwc-data-table.ts": {
-        "version": "b598017518bbe033905c0cba9b27fad680b169741642b584f0946de62c5fab21",
-        "signature": "d3508c490131da5417518efa4e2ee673eea5d1e0d918e22ed5f9803f5781d9fc",
-        "affectsGlobalScope": true
+        "version": "2b079a6d458f4655edfaaafda334d5bf71d37b524128837a0162333572779fa9",
+        "signature": "2c53e602ad1e203b0c23219be185b574dfc75d99436fabb984f966084229ee17",
+        "affectsGlobalScope": false
       },
       "./packages/main/fwc-main.ts": {
         "version": "12f71d1878eb9604f3f207da0f4f1ffa13fd9cdd3a0df3c8dc3ce1a358de6a26",
@@ -875,10 +875,8 @@
         "./node_modules/tslib/tslib.d.ts"
       ],
       "./packages/data-table/fwc-data-table.ts": [
-        "./node_modules/@lit/localize/lit-localize.d.ts",
         "./node_modules/@material/mwc-icon-button/mwc-icon-button.d.ts",
         "./node_modules/date-fns/typings.d.ts",
-        "./node_modules/lit/decorators/custom-element.d.ts",
         "./node_modules/lit/decorators/property.d.ts",
         "./node_modules/lit/decorators/state.d.ts",
         "./node_modules/lit/index.d.ts",

@@ -1,4 +1,10 @@
-# `<fwc-card>`  
+# `<fwc-card>` [![Published on npm](https://img.shields.io/npm/v/@fortit/fwc-card.svg)](https://www.npmjs.com/package/@fortit/fwc-card)
+
+## Installation
+
+```sh
+npm i @fortit/fwc-card
+```
 
 ## Example usage
 

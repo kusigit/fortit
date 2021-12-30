@@ -1,6 +1,6 @@
 {
-  "name": "@fortit/fwc-base",
-  "version": "0.1.1",
+  "name": "@fortit/base",
+  "version": "0.1.2",
   "description": "",
   "main": "base.js",
   "module": "base.js",
