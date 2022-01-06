@@ -10,6 +10,11 @@ import '@material/mwc-list/mwc-list-item';
 import '@material/mwc-menu';
 import '@fortit/fwc-chip';
 
+export type ChipItem = {
+  id: string;
+  name: string;
+};
+
 @customElement('fwc-chip-list')
 export class ChipList extends LitElement {
   static styles = [
@@ -144,19 +149,19 @@ export class ChipList extends LitElement {
   icon = '';
 
   @property({ type: Array })
-  all: any[] = [];
+  all: ChipItem[] = [];
 
   @state()
-  additional: any[] = [];
+  additional: ChipItem[] = [];
 
   @state()
-  selectedSet = new Set<any>();
+  selectedSet = new Set<ChipItem>();
 
-  initialSet = new Set<any>();
+  initialSet = new Set<ChipItem>();
 
-  addedSet = new Set<any>();
+  addedSet = new Set<ChipItem>();
 
-  removedSet = new Set<any>();
+  removedSet = new Set<ChipItem>();
 
   get added() {
     return Array.from(this.addedSet);
@@ -170,9 +175,9 @@ export class ChipList extends LitElement {
     return Array.from(this.selectedSet);
   }
 
-  set selected(value: any[]) {
-    this.addedSet = new Set<any>();
-    this.removedSet = new Set<any>();
+  set selected(value: ChipItem[]) {
+    this.addedSet = new Set<ChipItem>();
+    this.removedSet = new Set<ChipItem>();
     this.initialSet = new Set(value);
     this.selectedSet = new Set(value);
   }
@@ -197,7 +202,7 @@ export class ChipList extends LitElement {
 
   private getSelectedItems(): TemplateResult {
     return html`${Array.from(this.selectedSet).map(
-      (item: any) =>
+      (item: ChipItem) =>
         html` <fwc-chip
             icon="${this.icon}"
             text="${item.name}"
@@ -216,7 +221,7 @@ export class ChipList extends LitElement {
       this.all.length === this.selectedSet.size}"
       @action="${this.add}"
       >${this.additional.map(
-        (item: any) =>
+        (item: ChipItem) =>
           html`<mwc-list-item>
             <span>${item.name}</span>
           </mwc-list-item>`
@@ -264,7 +269,7 @@ export class ChipList extends LitElement {
     this.requestUpdate();
   }
 
-  private delete(item: any) {
+  private delete(item: ChipItem) {
     if (this.addedSet.has(item)) {
       this.addedSet.delete(item);
     } else {
