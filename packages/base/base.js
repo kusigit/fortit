@@ -31,6 +31,38 @@ const refreshToken = async () => {
         throw new Error(`${response.status}: ${response.statusText}`);
     }
 };
+const replay = async (flowName, name, id) => {
+    const url = `${origin}/perform-replay/v2`;
+    const data = {
+        flowNames: [flowName],
+        aggregates: [
+            {
+                aggregateIdentifier: {
+                    context: {
+                        name: 'input',
+                    },
+                    aggregate: {
+                        name,
+                        id,
+                    },
+                },
+                from: 1,
+                to: 1000,
+            },
+        ],
+    };
+    const response = await window.fetch(url, {
+        method: 'post',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(data),
+    });
+    if (response.status !== 200) {
+        throw new Error(response.statusText);
+    }
+    return response.json();
+};
 const sendCommand = async (aggregateName, aggregateId, name, data) => {
     let url;
     if (aggregateId) {
@@ -179,5 +211,5 @@ const observeNotifications = async (store) => {
         setTimeout(() => observeNotifications(store), reconnectTimeout);
     }
 };
-export { debounce, dynMsg, formatDate, formatDateTime, observeNotifications, sendCommand, queryView, };
+export { debounce, dynMsg, formatDate, formatDateTime, observeNotifications, replay, sendCommand, queryView, };
 //# sourceMappingURL=base.js.map

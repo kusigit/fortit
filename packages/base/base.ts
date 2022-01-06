@@ -52,6 +52,47 @@ const refreshToken = async (): Promise<void> => {
   }
 };
 
+const replay = async (
+  flowName: string,
+  name: string,
+  id: string
+): Promise<unknown> => {
+  const url = `${origin}/perform-replay/v2`;
+
+  const data = {
+    flowNames: [flowName],
+    aggregates: [
+      {
+        aggregateIdentifier: {
+          context: {
+            name: 'input',
+          },
+          aggregate: {
+            name,
+            id,
+          },
+        },
+        from: 1,
+        to: 1000,
+      },
+    ],
+  };
+
+  const response = await window.fetch(url, {
+    method: 'post',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(data),
+  });
+
+  if (response.status !== 200) {
+    throw new Error(response.statusText);
+  }
+
+  return response.json();
+};
+
 const sendCommand = async (
   aggregateName: string,
   aggregateId: string,
@@ -256,6 +297,7 @@ export {
   formatDate,
   formatDateTime,
   observeNotifications,
+  replay,
   sendCommand,
   queryView,
 };
