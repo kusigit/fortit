@@ -12,12 +12,9 @@ type DebounceCallbackFunction = (event?: Event) => void;
 const debounce = (callback: DebounceCallbackFunction, debounceTime = 300) => {
   let timeout: number;
 
-  return (event: Event) => {
-    if (timeout) {
-      clearTimeout(timeout);
-    }
-
-    timeout = setTimeout(callback, debounceTime, event);
+  return (event?: Event) => {
+    window.clearTimeout(timeout);
+    timeout = window.setTimeout(callback, debounceTime, event);
   };
 };
 

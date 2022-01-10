@@ -6,10 +6,8 @@ const messages = await import('./client/i18n/messages');
 const debounce = (callback, debounceTime = 300) => {
     let timeout;
     return (event) => {
-        if (timeout) {
-            clearTimeout(timeout);
-        }
-        timeout = setTimeout(callback, debounceTime, event);
+        window.clearTimeout(timeout);
+        timeout = window.setTimeout(callback, debounceTime, event);
     };
 };
 const dynMsg = (key) => {

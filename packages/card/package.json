@@ -1,6 +1,6 @@
 {
   "name": "@fortit/fwc-card",
-  "version": "0.1.10",
+  "version": "0.1.14",
   "description": "",
   "main": "fwc-card.js",
   "module": "fwc-card.js",
