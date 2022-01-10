@@ -3,12 +3,10 @@ const origin = '';
 const reconnectTimeout = 5000;
 // @ts-ignore
 const messages = await import('./client/i18n/messages');
+let timeout;
 const debounce = (callback, debounceTime = 300) => {
-    let timeout;
-    return (event) => {
-        window.clearTimeout(timeout);
-        timeout = window.setTimeout(callback, debounceTime, event);
-    };
+    window.clearTimeout(timeout);
+    timeout = window.setTimeout(callback, debounceTime);
 };
 const dynMsg = (key) => {
     const message = messages.default[key];

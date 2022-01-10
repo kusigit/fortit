@@ -1,6 +1,6 @@
 import { EnhancedStore } from '@reduxjs/toolkit';
-declare type DebounceCallbackFunction = (event?: Event) => void;
-declare const debounce: (callback: DebounceCallbackFunction, debounceTime?: number) => (event?: Event | undefined) => void;
+declare type DebounceCallbackFunction = () => void;
+declare const debounce: (callback: DebounceCallbackFunction, debounceTime?: number) => void;
 declare const dynMsg: (key: string) => string;
 declare const formatDate: (timestamp?: number | Date | undefined, formatStr?: string) => string;
 declare const formatDateTime: (timestamp?: number | Date | undefined, formatStr?: string) => string;

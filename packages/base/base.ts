@@ -7,15 +7,13 @@ const reconnectTimeout = 5000;
 // @ts-ignore
 const messages = await import('./client/i18n/messages');
 
-type DebounceCallbackFunction = (event?: Event) => void;
+type DebounceCallbackFunction = () => void;
+
+let timeout: number;
 
 const debounce = (callback: DebounceCallbackFunction, debounceTime = 300) => {
-  let timeout: number;
-
-  return (event?: Event) => {
-    window.clearTimeout(timeout);
-    timeout = window.setTimeout(callback, debounceTime, event);
-  };
+  window.clearTimeout(timeout);
+  timeout = window.setTimeout(callback, debounceTime);
 };
 
 const dynMsg = (key: string): string => {
